@@ -1,0 +1,1223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="description" content="Multi">
+   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+   <meta name="author" content="JHarrys">
+   <title>kinetic</title>
+   <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+   <link rel="stylesheet" href="css/bootstrap.min.css">
+   <link rel="stylesheet" href="css/delta_style.css">
+   <link rel="stylesheet" href="css/jquery-ui.css">
+   <link rel="stylesheet" href="css/font-awesome.min.css">
+   <link rel="stylesheet" href="css/animate.min.css">
+   <link rel="icon" href="img/Icon-delta.png ">
+   <link href='https://fonts.googleapis.com/css?family=Michroma' rel='stylesheet' type='text/css'>
+   <link href='https://fonts.googleapis.com/css?family=Jura' rel='stylesheet' type='text/css'>
+   <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+   <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Rajdhani" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400" rel="stylesheet"> </head>
+
+<body>
+   <!--     <div id="loader"><i class="fa fa-cog fa-spin fa-3x fa-fw"></i></div>
+      <div  class="page-loader-left">
+         <canvas id="js-particles" class="particles" width="1024" height="900"></canvas>
+      </div>
+      <div class="page-loader-right">
+         <canvas id="js-particles-two" class="particles" width="1024" height="900"></canvas>
+      </div> -->
+   <nav class="navbar navbar-default navbar-fixed-top" style="z-index: 6000;background-image: none;background-color: #0f1114;border-bottom-color:#0f1114;min-height:30px;border-radius:0;">
+      <ul id="send" class="list-inline text-center">
+         <li>
+            <a href="#" style="font-size: 10px; font-family:'Michroma',sans-serif;min-height:10px; padding-top:5px;">
+               <p style="   font-family: 'Jura',sans-serif; margin-bottom: 0;"></p>
+            </a>
+         </li>
+      </ul>
+      <ul id="media" class="list-inline pull-right">
+         <li><a href="#" style="font-size: 15px;"><i class="fa fa-behance" aria-hidden="true"></i></a> </li>
+         <li><a href="#" style="font-size: 15px;"><i class="fa fa-instagram" aria-hidden="true"></i></a> </li>
+         <li><a href="#" style="font-size: 15px;"><i class="fa fa-facebook" aria-hidden="true"></i></a> </li>
+      </ul>
+   </nav>
+   <nav class="navbar navbar-default navbar-fixed-top top pull-right" id="nav">
+      <div class="container-fluid">
+         <div class="row">
+            <div class="col-sm-10 col-md-10 col-lg-10">
+               <!-- Brand and toggle get grouped for better mobile display -->
+               <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+                  <a class="navbar-brand" href="#"> <img id="brand" alt="ingenieria kinetic, c.a." src="img/Brand-krew.png" width="250"> </a>
+               </div>
+               <!-- Collect the nav links, forms, and other content for toggling -->
+               <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                  <ul class="nav navbar-nav navbar-right">
+                     <li><a id="scrollup" href="#top" role="button" style="padding-top:10px;"><span class="btn btn-default navigation" id="anchor_zero">Inicio</span><span class="sr-only">(current)</span></a> </li>
+                     <li><a href="#">&#183;</a> </li>
+                     <li><a id="scroll" href="#us" role="button" style="padding-top:10px;"><span class="btn btn-default blank" id="anchor_one">Nosotros</span></a> </li>
+                     <li><a href="#">&#183;</a> </li>
+                     <li><a id="scroll2" href="#services" role="button" style="padding-top:10px;"><span class="btn btn-default blank" id="anchor_two">Servicios</span></a> </li>
+                     <li><a href="#">&#183;</a> </li>
+                     <li><a id="scroll3" href="#foot" role="button" style="padding-top:10px;"><span class="btn btn-default blank" id="anchor_three">Contacto</span></a> </li>
+                  </ul>
+               </div>
+               <!-- /.navbar-collapse -->
+            </div>
+            <div class="col-sm-2 col-md-2 col-lg-2"> </div>
+         </div>
+      </div>
+      <!-- /.container-fluid -->
+   </nav>
+   <section class="sectionZero" id="zero">
+      <header id="top">
+         <div id="particles-js"></div> <img src="img/Krew_Logo.png" alt="" class="logo img-responsive "> </header>
+      <nav class="navbar navbar-static-bottom" style="background-image: none;background-color: #0f1114;border-bottom-color:#0f1114; border-top-color:#0f1114;box-shadow: none;border-radius: 0;max-height: 50vh;"></nav>
+   </section>
+   <div class="container-fluid">
+      <div class="row text-center">
+         <nav id="bottom-nav" class="navbar navbar-default navbar-fixed-bottom shrink" style="background-image: none;background-color: #0f1114;border-top-color: #0f1114;box-shadow: none;">
+            <div class="col-sm-1 col-md-1 col-lg-1"></div>
+            <div class="col-sm-3 col-md-3 col-lg-3" style="margin-top:10vh;">
+               <p><i class="fa fa-envelope-o fa-2x icons envelope"></i> </p>
+               <p id="mail" style="font-family: 'Michroma', sans-serif;">ingkinetic@gmail.com</p>
+            </div>
+            <div class="col-sm-5 col-md-5 col-lg-5">
+               <ul class="list-inline botIconsList" style="padding-top:10px;">
+                  <li class="wow flipInY botIcons" data-wow-duration="3s" data-wow-delay="3.5s"><a href="#top"><span class="fa fa-home fa-2x icons"></span></a>
+                     <p id="textOne" class="text">Inicio</p>
+                  </li>
+                  <li style="font-size:2em;">&CenterDot;</li>
+                  <li class="wow flipInY botIcons" data-wow-duration="3s" data-wow-delay="3.9s"><a href="#us"><span class="fa fa-users fa-2x icons"></span></a>
+                     <p id="textTwo" class="text">Nosotros</p>
+                  </li>
+                  <li style="font-size:2em;">&CenterDot;</li>
+                  <li class="wow flipInY botIcons" data-wow-duration="3s" data-wow-delay="4.4s"><a href="#services"><span class="fa fa-wrench fa-2x icons"></span></a>
+                     <p id="textThree" class="text">Servicios</p>
+                  </li>
+               </ul>
+            </div>
+            <div class="col-sm-2 col-md-2 col-lg-2" style="margin-top:10vh;"> <img style="z-index: 5000;" src="img/Brand-krew-bot.png" alt="kinetic" class="brand-bot"> <span class="slogan pull-right">Digital Enginnering</span> <span class="copyright pull-right">&#169;2016 Ingenieria Kinetic,C.A.</span> </div>
+            <div class="col-sm-1 col-md-1 col-lg-1"></div>
+         </nav>
+      </div>
+   </div>
+   </div>
+   <div class="container">
+      <div class="row">
+         <div class="col-sm-2 col-md-2 col-lg-2"> </div>
+         <div class="col-sm-4 col-md-4 col-lg-4"> <img src="img/Logo-Renagro.png" alt="" class="img-responsive"> </div>
+         <div class="col-sm-4 col-md-4 col-lg-4"> <img src="img/Logo_EX_Vector.png" alt="" class="img-responsive"> </div>
+         <div class="col-sm-2 col-md-2 col-lg-2"> </div>
+      </div>
+      <div class="row" id="us">
+         <hr style="border-color: transparent;"> </div>
+   </div>
+   <div class="container-fluid" id="middle">
+      <section class="sectionOne" id="one">
+         <div class="row">
+            <div id="jumbo" class="jumbotron header">
+               <div class="content" style="padding-top: 3%;">
+                  <div class="row">
+                     <div class="col-sm-12 col-md-12 col-lg-12">
+                        <h1 id="title" class=" wow fadeInUp text-center" data-wow-duration="1.5s" data-wow-delay="0.5s">LA PRIMERA IMPRESION QUEDA...</h1> </div>
+                  </div>
+                  <div class="row text-center">
+                     <div class="col-sm-12 col-md-12 col-lg-12">
+                        <p class="hover wow fadeInUp text-center" style="color:white; font-size:17px;display: inline-block;" data-wow-duration="1.5s" data-wow-delay="0.7s">Tu &nbsp; <em>Identidad Corporativa</em> </p> &nbsp;
+                        <p class="hover wow fadeInUp text-center" style="color:white; font-size:17px;display: inline-block;" data-wow-duration="1.5s" data-wow-delay="0.9s"> debe ser fuerte, coherente y distintiva, diferenciandote del resto.</p>
+                     </div>
+                  </div>
+                  <div class="row" style="padding-top: 1%;">
+                     <div class="col-sm-12 col-md-12 col-lg-12">
+                        <p class=" wow fadeInUp text-center"><a><span id="btnjumbo" class="btn btn-primary btn-lg" href="#" role="button" data-wow-duration="1.5s" data-wow-delay="1s" target="_blank">¿Que es Identidad Corporativa?</span></a> </p>
+                     </div>
+                  </div>
+                  <div class="row text-center">
+                     <div class="col-sm-12 col-md-12 col-lg-12">
+                        <p class="hover wow fadeInUp text-center center-block" style="  display: inline-block;color:white;font-size: 17px; padding-top: 1%;" data-wow-duration="1.5s" data-wow-delay="1.2s">La marca e identidad visual de tu compañia juega </p>
+                        <p class="hover wow fadeInUp text-center center-block" style="display: inline-block;color:white;font-size: 17px; padding-top: 1%;" data-wow-duration="1.5s" data-wow-delay="1.5s"> un papel critico en como te percibe el publico. </p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <nav class="navbar navbar-default" style="background-image: none;background-color: #0f1114; border:none; border-radius: 0;border-bottom-color:#0f1114; border-top-color:#0f1114; min-height:30px; box-shadow: none;margin-bottom: 1em;"></nav>
+         </div>
+      </section>
+   </div>
+   <div class="container">
+      <div class="row">
+         <div class="col-sm-12 col-md-12 col-lg-12">
+            <section>
+               <div class="row" style=" margin-top: 10px;margin-bottom: 10px;"> <span>
+                        <img src="img/Icon-delta-up-gray.png" alt="" class="center-block" width="5%">
+                        </span> </div>
+               <div class="row">
+                  <p class="text-center" style="color:#7e8890;font-family: 'Jura',sans-serif;font-size: 1.1em;;"> En una era donde la informacion es accesible a traves de un click tu <em> Identidad Digital</em> es imprescindible. </p>
+                  <div class="row" id="services">
+                     <div class="col-sm-5 col-md-5 col-lg-5"> </div>
+                     <div class="col-sm-2 col-md-2 col-lg-2">
+                        <hr style="border-color:rgba(151,158,164,.5);"> </div>
+                     <div class="col-sm-5 col-md-5 col-lg-5"> </div>
+                  </div>
+            </section>
+            </div>
+         </div>
+      </div>
+      <div class="container-fluid">
+         <section class="sectionTwo" id="two">
+            <div class="row">
+               <div class="jumbotron" id="jumbo-brands">
+                  <div class="row">
+                     <div class="col-sm-4 col-md-4 col-lg-4">
+                        <h1>
+                                 Una buena <em style="font-size: 55px; color:#ff3366;">Identidad Digital</em> te permite:
+                              </h1> </div>
+                     <div class="col-sm-8 col-md-8 col-lg-8">
+                        <div class="row">
+                           <div class="col-sm-8 col-md-8 col-lg-8">
+                              <div class="row">
+                                 <h1 style=" font-family: 'Poiret One', cursive; font-size:20px; font-weight:bold; padding-left:20px;padding-right:20px" class=" wow fadeInLeft text-right" data-wow-delay=".5s">Ocupar un lugar en la mente del público.</h1> </div>
+                              <div class="row">
+                                 <p style="color: #8e9fb5; font-size:15px; text-align:justify; padding-left:20px; padding-right:20px;">El espacio ganado en el pensamiento de las personas te convierte en su primera opcion.</p>
+                              </div>
+                           </div>
+                           <div class="col-sm-3 col-md-3 col-lg-3">
+                              <div class="row"> <img id="brain" class=" center-block img-responsive" data-alt-src="img/Icon-brain_hover.png" src="img/Icon-brain.png" alt="..." width="90" style="padding-top:20px;"> </div>
+                           </div>
+                        </div>
+                        <div class="row">
+                           <div class="col-sm-3 col-md-3 col-lg-3" style="padding-right: 0px;">
+                              <div class="row"> <img id="crowd" class="img-responsive" src="img/Icon-crowd.png" alt="..." width="90" style="padding-top:20px;margin-left: 20px;margin-right: 0;"> </div>
+                           </div>
+                           <div class="col-sm-1 col-md-8 col-lg-8">
+                              <div class="row" style="padding-top: 15px;">
+                                 <h1 style=" font-family: 'Poiret One', cursive; font-size:20px; font-weight:bold; padding-right:20px" class="wow fadeInRight text-left" data-wow-delay=".5s">Facilitar tu distincion de otras entidades.</h1>
+                                 <p style="color: #8e9fb5; font-size:15px; text-align:justify; padding-right:20px;"> A traves de un perfil unico te defines como una alternativa diferente y válida.</p>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="row">
+                           <div class="col-sm-8 col-md-8 col-lg-8">
+                              <div class="row">
+                                 <h1 style=" font-family: 'Poiret One', cursive; font-size:20px; font-weight:bold;padding-left:20px;padding-right:20px" class="wow fadeInLeft text-right" data-wow-delay=".5s">Obtener mejores ingresos.</h1> </div>
+                              <div class="row">
+                                 <p style="color: #8e9fb5; font-size:15px; text-align:justify; padding-left:20px; padding-right:20px;"> El publico esta dispuesto a pagar un plus de marca, ya que tu imagen corporativa sería una garantía de calidad superior.</p>
+                              </div>
+                           </div>
+                           <div class="col-sm-3 col-md-3 col-lg-3">
+                              <div class="row"> <img id="chart" class="center-block img-responsive" src="img/Icon-chart.png" alt="..." width="90" style="padding-top:20px;"> </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <nav class="navbar navbar-default" style="background-image: none;background-color: #0f1114; margin-bottom: 0; border:none; border-radius: 0;border-bottom-color:#0f1114; border-top-color:#0f1114; min-height:30px; box-shadow: none;"></nav>
+            </div>
+         </section>
+      </div>
+      <div class="container">
+         <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-12">
+               <section>
+                  <div class="row" style=" margin-top:3vh;margin-bottom:1vh;"> <span>
+                           <img id="delta_down" src="img/Icon-delta-down-gray.png" alt="" class="center-block" width="5%">
+                           </span> </div>
+                  <div class="row">
+                     <p class="text-center" style="font-family: 'Jura',sans-serif; font-size: 1.1em;">Para darte a conocer y expandir tus horizontes rapidamente, tener presencia en la red es necesario.</p>
+                  </div>
+                  <div class="row">
+                     <div class="col-sm-5 col-md-5 col-lg-5"> </div>
+                     <div class="col-sm-2 col-md-2 col-lg-2">
+                        <hr style="border: dotted 1px rgba(151,158,164,.5);"> </div>
+                     <div class="col-sm-5 col-md-5 col-lg-5"> </div>
+                  </div>
+               </section>
+            </div>
+         </div>
+      </div>
+      <div class="container-fluid">
+         <section>
+            <div class="row">
+               <h3 class="text-center" style=" font-family: 'Rajdhani',sans-serif;;">El desarrollo de tu identidad digital abarca:</h3> </div>
+         </section>
+         <br>
+         <section>
+            <div class="row" style="display: flex;align-items: center;justify-content: center;">
+               <div class="col-xs-8 col-md-8 col-lg-8" style="border-right:dotted 1px rgba(151,158,164,.5); padding-right: 0px;"> <img class="img-responsive" src="img/Design.jpg" alt="..."> </div>
+               <div class="col-xs-3 col-md-3 col-lg-3" style="margin-left: 10px;padding-right: 0px;">
+                  <h2>Lineamientos de marca</h2>
+                  <p style="color:#7e8890;font-size: 15px;"> Mantener uniformidad en la imagen de tu compañía le aporta a ésta mayor presencia y credibilidad.</p>
+                  <br>
+                  <p>Se definen las proporciones, paleta de colores, tipografías y los tamaños de cada elemento.</p>
+                  <div class="row"> <img id="brush" src="img/brush-icon.png" alt="" class="img-responsive center-block" style="opacity: .7;"> </div>
+                  <div class="row text-center"> <span class=" wow bounce"><em>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </em></span> </div>
+               </div>
+               <div class="col-xs-1 col-md-1 col-lg-1"></div>
+            </div>
+            <hr style="border-color:rgba(151,158,164,.5);">
+            <div class="row" style="display: flex;align-items: center;justify-content: center;">
+               <div class="col-xs-1 col-md-1 col-lg-1"></div>
+               <div class="col-xs-3 col-md-3 col-lg-3" style="margin-right: 10px; padding-left: 0px;">
+                  <h2>Presencia en la web</h2>
+                  <p style="color:#7e8890;font-size: 15px;"> El facil acceso a la informacion a traves de la red vuelve indispensable poseer una Identidad Digital.</p>
+                  <br>
+                  <p>Podras alcanzar, en forma natural, las primeras posiciones en los buscadores.</p>
+                  <div class="row"> <img id="desktop" src="img/desktop-icon.png" alt="" class="img-responsive center-block" style="opacity: .7;"> </div>
+                  <div class="row text-center"> <span class=" wow bounce"><em>Obtener presencia en la web es imprescindible</em></span> </div>
+               </div>
+               <div class="col-xs-8 col-md-8 col-lg-8" style="border-left:dotted 1px rgba(151,158,164,.5); padding-left: 0px;"> <img class="img-responsive" src="img/web.jpg" alt="..."> </div>
+            </div>
+            <hr style="border-color:rgba(151,158,164,.5);">
+            <!--              <div class="row" style="display: flex;
+                  align-items: center;
+                  justify-content: center;">
+                                  <div class="col-xs-6 col-md-6 col-lg-6">
+                                  
+                                      <img class="img-responsive"  src="" alt="..." >
+                                  
+                                  </div>
+                  
+                             
+                                
+                                  <div class="col-xs-5 col-md-5 col-lg-5">
+                                 
+                                    <h3><em>Pitch</em> & <em>Commnunity Managment</em></h3>  
+                                  
+                  
+                                     <div class="row">
+                                           <img src="img/phone-icon.png" alt="" class="img-responsive center-block" style="opacity: .7;">
+                                     </div>
+                                     <div class="row text-center">
+                                           <span class=" wow bounce"><em>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </em></span>
+                           
+                                     </div>
+                  
+                                  </div>
+                  
+                                  <div class="col-xs-1 col-md-1 col-lg-1"></div>
+                                 
+                  
+                          </div> -->
+            <br>
+            <div class="row" style="display: flex;
+                  align-items: center;
+                  justify-content: center;">
+               <div class="col-xs-8 col-md-8 col-lg-8" style="border-right:dotted 1px rgba(151,158,164,.5); padding-right: 0px;"> <img class="img-responsive" src="img/front.jpg" alt="..."> </div>
+               <div class="col-xs-3 col-md-3 col-lg-3" style="margin-left: 10px;padding-right: 0px;">
+                  <h2>Desarrollo <em>Front-End</em></h2>
+                  <p style="color:#7e8890;font-size: 15px;"> Una interfaz de usuario apropiada en fundamental para capturar la atencion.</p>
+                  <br>
+                  <p>Con un enfoque primordial en diseño personalizado, la distribucion adecuada de elementos junto a una seleccion apropiada de colores y fuentes se traduce en un mayor alcance al publico.</p>
+                  <div class="row"> <img id="web" src="img/html-icon.png" alt="" class="img-responsive center-block" style="opacity: .7;"> </div>
+                  <div class="row text-center"> <span class=" wow bounce"><em>"Tu tarjeta de presentacion al mundo"</em></span> </div>
+               </div>
+               <div class="col-xs-1 col-md-1 col-lg-1"></div>
+            </div>
+            <br> </section>
+      </div>
+      <footer id="foot">
+         <nav class="navbar navbar-default" style="background-image: none;background-color: #0f1114; margin-bottom: 0; border:none; border-radius: 0;border-bottom-color:#0f1114; border-top-color:#0f1114; min-height:30px; box-shadow: none;"></nav>
+         <div class="jumbotron footer">
+            <div class="content">
+               <div class="row">
+                  <div class="col-sm-12 col-md-12 col-lg-12">
+                     <p class="text-center ref">Powered By</p>
+                  </div>
+               </div>
+               <div class="row   center-block">
+                  <div class="col-sm-12 col-md-12 col-lg-12">
+                     <ul class="list-inline" id="tools">
+                        <li><img src="img/bootstrap.png" alt="" class="img-responsive"> </li>
+                        <li><img src="img/jquery-logo.png" alt="" class="img-responsive"> </li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <nav class="navbar" style="background-color: #0f1114; margin-bottom: 0; border:none; border-radius: 0;border-bottom-color:#000000; border-top-color:#0f1114; height: 30vh; box-shadow: none;"> </nav>
+      </footer>
+</body>
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery-ui.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/particles.min.js"></script>
+<script src="js/sketch.min.js"></script>
+<script src="js/smoothscrolling.jquery.js"></script>
+<script src="js/jquery.inview.js"></script>
+<script src="js/jquery.interactive_bg.js"></script>
+<script src="js/wow.min.js"></script>
+<script>
+   var docWidth = document.documentElement.offsetWidth;
+   [].forEach.call(document.querySelectorAll('*'), function(el) {
+      if (el.offsetWidth > docWidth) {
+         console.log(el);
+      }
+   });
+</script>
+<script>
+   $('#brand').hide();
+   $("a").smoothscrolling();
+   $('#middle').on('inview', function(event, isInView) {
+      if (isInView) {
+         $(".navbar").addClass('fadeIn');
+         $('#brand').fadeIn(2000);
+      } else {}
+   });
+   $('.logo').on('inview', function(event, isInView) {
+      if (isInView) {
+         $(".navbar").removeClass('fadeIn');
+         $('#brand').fadeOut(2000);
+      } else {}
+   });
+   $('#tools').on('inview', function(event, isInView) {
+      if (isInView) {
+         $("#bottom-nav").addClass('whole');
+         $('.botIconsList').css({
+            'padding-top': '5em'
+         });
+         $('#textOne,#textTwo,#textThree,#textFour').removeClass('text');
+         $('#textOne,#textTwo,#textThree,#textFour').addClass('textHover');
+         $('.brand-bot,.slogan,.copyright').addClass('animated fadeInRight');
+         $('.envelope').addClass('animated fadeInDown');
+         $('.mail').addClass('animated fadeInUp');
+         $('.contact').hide(500);
+      } else {
+         $("#bottom-nav").removeClass('whole');
+         $('.botIconsList').css({
+            'padding-top': '10px'
+         });
+         $('#textOne,#textTwo,#textThree,#textFour').removeClass('textHover');
+         $('#textOne,#textTwo,#textThree,#textFour').addClass('text');
+         $('.brand-bot,.slogan,.copyright').removeClass('animated fadeInRight');
+         $('.envelope').removeClass('animated fadeInDown');
+         $('.mail').removeClass('animated fadeInUp');
+         $('.contact').show(500);
+      }
+   });
+</script>
+<script>
+   $(window).on('scroll', function() {
+      var offSetTop = $(this).scrollTop();
+      var navHeight = $('#nav').height();
+      var offSet = $('.sectionOne').offset().top;
+      // var iD      = $('.sectionOne').attr('id');
+      // var anChor  = $('#anchor_'+iD+'');
+      if (offSet - offSetTop <= navHeight) {
+         $('#anchor_one').removeClass('blank');
+         $('#anchor_one').addClass('navigation');
+         $('#anchor_zero').addClass('blank');
+         $('#anchor_zero').removeClass('navigation');
+      }
+      var heighT = $('.sectionOne').height();
+      if (offSet - offSetTop >= navHeight) {
+         $('#anchor_one').addClass('blank');
+         $('#anchor_one').removeClass('navigation');
+         $('#anchor_zero').removeClass('blank');
+         $('#anchor_zero').addClass('navigation');
+      }
+   });
+   $(window).on('scroll', function() {
+      var offSetTop = $(this).scrollTop();
+      var navHeight = $('#nav').height();
+      var offSet = $('#services').offset().top;
+      // var iD      = $('.sectionTwo').attr('id');
+      // var anChor  = $('#anchor_'+iD+'');
+      if (offSet - offSetTop <= navHeight) {
+         $('#anchor_two').removeClass('blank');
+         $('#anchor_two').addClass('navigation');
+         $('#anchor_one').addClass('blank');
+         $('#anchor_one').removeClass('navigation');
+      }
+      var heighT = $('.sectionTwo').height();
+      if (offSet - offSetTop >= navHeight) {
+         $('#anchor_two').addClass('blank');
+         $('#anchor_two').removeClass('navigation');
+      }
+   });
+   $(window).on('scroll', function() {
+      var offSetTop = $(this).scrollTop();
+      var navHeight = $('#nav').height();
+      var offSet = $('#delta_down').offset().top;
+      if (offSet > offSetTop) {
+         $("#nav").removeClass('animated slideOutUp');
+         $("#nav").addClass('animated slideInDown');
+         $("#bottom-nav").addClass('shrink')
+         $("#bottom-nav").addClass('animated slideOutDown')
+      } else {
+         $("#nav").addClass('animated slideOutUp');
+         $("#bottom-nav").removeClass('shrink')
+         $("#bottom-nav").addClass('half')
+         $("#bottom-nav").removeClass('animated slideOutDown')
+         $("#bottom-nav").addClass('animated slideInUp')
+      }
+   });
+</script>
+<script>
+   new WOW().init();
+</script>
+<script>
+   $('#media').addClass('animated slideInLeft');
+   $('#scrollup').addClass('animated slideInUp');
+</script>
+<script>
+   $('#jumbo').hover(function() {
+      $('#btnjumbo').css({
+         'background-color': 'transparent',
+         'color': '#ff3366',
+         'border-color': '#979ea4'
+      });
+      $('#hover-gray').css({
+         'color': '#979ea4'
+      });
+      $('.hover').css({
+         'color': '#979ea4'
+      });
+      $('#title').css({
+         'color': '#ff3366'
+      })
+   }, function() {
+      $('#btnjumbo').css({
+         'background-color': '#ff3366',
+         'color': '#ecf0f1',
+         'border-color': '#ff3366'
+      });
+      $('#hover-gray').css({
+         'color': '#ecf0f1'
+      });
+      $('.hover').css({
+         'color': '#ecf0f1'
+      });
+      $('#title').css({
+         'color': '#ecf0f1'
+      })
+   });
+   $('#jumbo-brands').hover(function() {
+      $('#brain').addClass('rotateR');
+      $('#crowd').addClass('rotateL');
+      $('#chart').addClass('rotateR');
+      setTimeout(function() {
+         $('#brain').attr('src', 'img/Icon-brain_hover.png');
+      }, 500)
+      setTimeout(function() {
+         $('#crowd').attr('src', 'img/Icon-crowd_hover.png');
+      }, 500)
+      setTimeout(function() {
+         $('#chart').attr('src', 'img/Icon-chart_hover.png');
+      }, 500)
+   }, function() {
+      $('#brain').removeClass('rotateR');
+      $('#crowd').removeClass('rotateL');
+      $('#chart').removeClass('rotateR');
+      setTimeout(function() {
+         $('#brain').attr('src', 'img/Icon-brain.png');
+      }, 500)
+      setTimeout(function() {
+         $('#crowd').attr('src', 'img/Icon-crowd.png');
+      }, 500)
+      setTimeout(function() {
+         $('#chart').attr('src', 'img/Icon-chart.png');
+      }, 500)
+   });
+</script>
+<script>
+   $(document).ready(function() {
+      setTimeout(function() {
+         $('nav').addClass('show');
+      }, 2600)
+   })
+   $(document).ready(function() {
+      setTimeout(function() {
+         $('#loader').fadeOut();
+      }, 1500)
+   })
+   $(document).ready(function() {
+      setTimeout(function() {
+         $('.page-loader-left').addClass('left-loaded');
+         $('.page-loader-right').addClass('right-loaded');
+         $('#loader').fadeOut();
+      }, 2100)
+   })
+   window.onbeforeunload = function() {
+      window.scrollTo(0, 0);
+   }
+   $('#btn-three').click(function() {
+      $('#nav,.navbar-nav,.navbar-brand').addClass('fade');
+      $('.brand').fadeOut(500);
+   })
+   $('#bot2,#bot3,#bot4').click(function() {
+      $('.brand').fadeIn(2000);
+      $('#nav,.navbar-nav,.navbar-brand').fadeIn(500);
+      $('#nav,.navbar-nav,.navbar-brand').removeClass('fade');
+   })
+   $('#bot1,#bot5').click(function() {
+      $(".navbar").removeClass('shrink');
+      $('#nav,.navbar-nav,.navbar-brand').show(500);
+      $('#nav,.navbar-nav,.navbar-brand').removeClass('fade');
+   })
+   $('#bot6').click(function() {
+      $('#nav,.navbar-nav,.navbar-brand').removeClass('fade');
+      $('#nav,.navbar-nav,.navbar-brand').show(500);
+      $('.brand').fadeIn(500);
+   })
+   $('#scroll,#scroll2,#scroll3,#btn').click(function() {
+      $(".top").addClass('fadeIn');
+   })
+   $('#scrollup,#btn-two').click(function() {
+      $(".top").removeClass('fadeIn');
+   })
+   $('#scroll,#scroll2,#scroll3,#btn').click(function() {
+      $(".subnav").addClass('fadeIn , expand');
+   })
+   $('#scrollup,#btn-two').click(function() {
+      $(".subnav").removeClass('fadeIn , expand');
+   })
+   $('#scroll,#scroll2,#scroll3,#btn').click(function() {
+      $(".bgnav").addClass('fadeIn , .right');
+   })
+   $('#scroll,#scroll2,#scroll3,#btn').click(function() {
+      $('.brand').fadeIn(2000);
+   })
+   $('#scrollup,#btn-two').click(function() {
+      $(".brand").fadeOut(500);
+   })
+</script>
+<script>
+   particlesJS("particles-js", {
+      "particles": {
+         "number": {
+            "value": 100,
+            "density": {
+               "enable": true,
+               "value_area": 800
+            }
+         },
+         "color": {
+            "value": "#2980b9"
+         },
+         "shape": {
+            "type": "circle",
+            "stroke": {
+               "width": 0,
+               "color": "#2980b9"
+            },
+            "polygon": {
+               "nb_sides": 5
+            },
+            "image": {
+               "src": "img/github.svg",
+               "width": 100,
+               "height": 100
+            }
+         },
+         "opacity": {
+            "value": 1,
+            "random": false,
+            "anim": {
+               "enable": false,
+               "speed": 1,
+               "opacity_min": 0.1,
+               "sync": false
+            }
+         },
+         "size": {
+            "value": 3,
+            "random": true,
+            "anim": {
+               "enable": false,
+               "speed": 40,
+               "size_min": 0.1,
+               "sync": false
+            }
+         },
+         "line_linked": {
+            "enable": true,
+            "distance": 100,
+            "color": "#2980b9",
+            "opacity": 0.5,
+            "width": 1
+         },
+         "move": {
+            "enable": true,
+            "speed": 2.5,
+            "direction": "none",
+            "random": false,
+            "straight": false,
+            "out_mode": "out",
+            "bounce": true,
+            "attract": {
+               "enable": false,
+               "rotateX": 600,
+               "rotateY": 1200
+            }
+         }
+      },
+      "interactivity": {
+         "detect_on": "canvas",
+         "events": {
+            "onhover": {
+               "enable": true,
+               "mode": "grab"
+            },
+            "onclick": {
+               "enable": true,
+               "mode": "push"
+            },
+            "resize": true
+         },
+         "modes": {
+            "grab": {
+               "distance": 100,
+               "line_linked": {
+                  "opacity": 1
+               }
+            },
+            "bubble": {
+               "distance": 400,
+               "size": 40,
+               "duration": 2,
+               "opacity": 8,
+               "speed": 3
+            },
+            "repulse": {
+               "distance": 200,
+               "duration": 0.4
+            },
+            "push": {
+               "particles_nb": 4
+            },
+            "remove": {
+               "particles_nb": 2
+            }
+         }
+      },
+      "retina_detect": true
+   });
+</script>
+<script>
+   particlesJS("particles-js-home", {
+      "particles": {
+         "number": {
+            "value": 100,
+            "density": {
+               "enable": true,
+               "value_area": 800
+            }
+         },
+         "color": {
+            "value": "#2980b9"
+         },
+         "shape": {
+            "type": "circle",
+            "stroke": {
+               "width": 0,
+               "color": "#2980b9"
+            },
+            "polygon": {
+               "nb_sides": 5
+            },
+            "image": {
+               "src": "img/github.svg",
+               "width": 100,
+               "height": 100
+            }
+         },
+         "opacity": {
+            "value": 1,
+            "random": false,
+            "anim": {
+               "enable": false,
+               "speed": 1,
+               "opacity_min": 0.1,
+               "sync": false
+            }
+         },
+         "size": {
+            "value": 3,
+            "random": true,
+            "anim": {
+               "enable": false,
+               "speed": 40,
+               "size_min": 0.1,
+               "sync": false
+            }
+         },
+         "line_linked": {
+            "enable": true,
+            "distance": 100,
+            "color": "#2980b9",
+            "opacity": 0.5,
+            "width": 1
+         },
+         "move": {
+            "enable": true,
+            "speed": 2.5,
+            "direction": "none",
+            "random": false,
+            "straight": false,
+            "out_mode": "out",
+            "bounce": true,
+            "attract": {
+               "enable": false,
+               "rotateX": 600,
+               "rotateY": 1200
+            }
+         }
+      },
+      "interactivity": {
+         "detect_on": "canvas",
+         "events": {
+            "onhover": {
+               "enable": true,
+               "mode": "grab"
+            },
+            "onclick": {
+               "enable": true,
+               "mode": "push"
+            },
+            "resize": true
+         },
+         "modes": {
+            "grab": {
+               "distance": 100,
+               "line_linked": {
+                  "opacity": 1
+               }
+            },
+            "bubble": {
+               "distance": 400,
+               "size": 40,
+               "duration": 2,
+               "opacity": 8,
+               "speed": 3
+            },
+            "repulse": {
+               "distance": 200,
+               "duration": 0.4
+            },
+            "push": {
+               "particles_nb": 4
+            },
+            "remove": {
+               "particles_nb": 2
+            }
+         }
+      },
+      "retina_detect": true
+   });
+</script>
+<script>
+   var PARTICLE_QUANT = 80;
+   var FPS = 60;
+   var BOUNCE = -5;
+   var PARTICLE_COLOR = 'rgb(52, 152, 219)';
+   var ARC_RADIUS = 2;
+   /**
+    * Particles lib class
+    *
+    * @class Particles
+    * @constructor
+    */
+   var Particles = function($element) {
+      // if element doesnt exist in the DOM return early
+      if ($element.length === 0) {
+         return;
+      }
+      /**
+       * A reference to the containing DOM element.
+       *
+       * @default null
+       * @property {jQuery} $element
+       * @public
+       */
+      this.$element = $element;
+      /**
+       * Initial timestamp use to for baseline of animation loop
+       *
+       * @default null
+       * @property lastTimeStamp
+       * @type {number}
+       * @public
+       */
+      this.lastTimeStamp = null;
+      /**
+       * array representing particles
+       *
+       * @default empty array
+       * @property lastTimeStamp
+       * @type {array}
+       * @public
+       */
+      this.particles = [];
+      this.init();
+   };
+   var proto = Particles.prototype;
+   /**
+    * Initializes the class.
+    * Runs a single setupHandlers call, followed by createChildren and layout.
+    * Exits early if it is already initialized.
+    *
+    * @method init
+    * @private
+    */
+   proto.init = function() {
+      this.createChildren().layout().enable();
+   };
+   /**
+    * Create any child objects or references to DOM elements.
+    * Should only be run on initialization of the view.
+    *
+    * @method createChildren
+    * @returns {Particles}
+    * @private
+    */
+   proto.createChildren = function() {
+      this.canvas = this.$element[0];
+      this.context = this.canvas.getContext('2d');
+      this.canvasWidth = this.canvas.width;
+      this.canvasHeight = this.canvas.height;
+      this.lastTimeStamp = new Date().getTime();
+      return this;
+   };
+   /**
+    * handles layout of DOM elements
+    *
+    * @method layout
+    * @returns {ParticlesController}
+    * @private
+    */
+   proto.layout = function() {
+      window.requestAnimFrame = (function() {
+         return window.requestAnimationFrame || window.webkitRequestAnimationFrame || window.mozRequestAnimationFrame;
+      })();
+      return this;
+   };
+   /**
+    * Remove any child objects or references to DOM elements.
+    *
+    * @method removeChildren
+    * @returns {Particles}
+    * @public
+    */
+   proto.removeChildren = function() {
+      this.context = null;
+      this.canvasWidth = null;
+      this.canvasHeight = null;
+      this.lastTimeStamp = null;
+      return this;
+   };
+   /**
+    * Enables the component.
+    * Performs any event binding to handlers.
+    * Exits early if it is already enabled.
+    *
+    * @method enable
+    * @public
+    */
+   proto.enable = function() {
+      this.createParticleData();
+      this.renderLoop();
+   };
+   //////////////////////////////////////////////////////////////////////////////////
+   // HELPER METHODS
+   //////////////////////////////////////////////////////////////////////////////////
+   /**
+    * Creates particle data objects
+    *
+    * @method createParticleData
+    * @private
+    */
+   proto.createParticleData = function() {
+      var i = 0;
+      var l = PARTICLE_QUANT;
+      for (; i < l; i++) {
+         this.particles[i] = {};
+         this.setParticleData(this.particles[i]);
+      }
+   };
+   /**
+    * Sets the base particle data
+    *
+    * @method setParticleData
+    * @private
+    */
+   proto.setParticleData = function(particle) {
+      particle.x = Math.random() * this.canvasWidth;
+      particle.y = Math.random() * this.canvasHeight;
+      particle.vx = (Math.random()) - 0.5;
+      particle.vy = (Math.random()) - 0.5;
+   };
+   /**
+    * Updates the particle data object
+    *
+    * @method update
+    * @private
+    */
+   proto.update = function() {
+      var i = 0;
+      var l = PARTICLE_QUANT;
+      for (; i < l; i++) {
+         var particle = this.particles[i];
+         particle.x += particle.vx;
+         particle.y += particle.vy;
+         if (particle.x > this.canvasWidth) {
+            particle.x = this.canvasWidth;
+            particle.vx *= BOUNCE;
+         } else if (particle.x < 0) {
+            particle.x = 0;
+            particle.vx *= BOUNCE;
+         }
+         if (particle.y > this.canvasHeight) {
+            particle.y = this.canvasHeight;
+            particle.vy *= BOUNCE;
+         } else if (particle.y < 0) {
+            particle.y = 0;
+            particle.vy *= BOUNCE;
+         }
+      }
+   };
+   /**
+    * Renders the particle on the canvas
+    *
+    * @method draw
+    * @private
+    */
+   proto.draw = function() {
+      var i = 0;
+      if (!this.context) {
+         return;
+      }
+      this.context.clearRect(0, 0, this.canvasWidth, this.canvasHeight);
+      this.context.strokeStyle = PARTICLE_COLOR;
+      for (; i < PARTICLE_QUANT; i++) {
+         var particle = this.particles[i];
+         this.context.save();
+         this.context.beginPath();
+         this.context.arc(particle.x, particle.y, ARC_RADIUS, 0, Math.PI * 2);
+         this.context.stroke();
+         this.context.restore();
+      }
+   };
+   /**
+    * Creates the animation loop
+    *
+    * @method renderLoop
+    * @private
+    */
+   proto.renderLoop = function() {
+      requestAnimationFrame(this.renderLoop.bind(this));
+      this.update();
+      this.draw();
+   };
+   var particles = new Particles($('#js-particles'));
+</script>
+<script>
+   var PARTICLE_QUANT = 80;
+   var FPS = 60;
+   var BOUNCE = -5;
+   var PARTICLE_COLOR = 'rgb(52, 152, 219)';
+   var ARC_RADIUS = 2;
+   /**
+    * Particles lib class
+    *
+    * @class Particles
+    * @constructor
+    */
+   var Particles = function($element) {
+      // if element doesnt exist in the DOM return early
+      if ($element.length === 0) {
+         return;
+      }
+      /**
+       * A reference to the containing DOM element.
+       *
+       * @default null
+       * @property {jQuery} $element
+       * @public
+       */
+      this.$element = $element;
+      /**
+       * Initial timestamp use to for baseline of animation loop
+       *
+       * @default null
+       * @property lastTimeStamp
+       * @type {number}
+       * @public
+       */
+      this.lastTimeStamp = null;
+      /**
+       * array representing particles
+       *
+       * @default empty array
+       * @property lastTimeStamp
+       * @type {array}
+       * @public
+       */
+      this.particles = [];
+      this.init();
+   };
+   var proto = Particles.prototype;
+   /**
+    * Initializes the class.
+    * Runs a single setupHandlers call, followed by createChildren and layout.
+    * Exits early if it is already initialized.
+    *
+    * @method init
+    * @private
+    */
+   proto.init = function() {
+      this.createChildren().layout().enable();
+   };
+   /**
+    * Create any child objects or references to DOM elements.
+    * Should only be run on initialization of the view.
+    *
+    * @method createChildren
+    * @returns {Particles}
+    * @private
+    */
+   proto.createChildren = function() {
+      this.canvas = this.$element[0];
+      this.context = this.canvas.getContext('2d');
+      this.canvasWidth = this.canvas.width;
+      this.canvasHeight = this.canvas.height;
+      this.lastTimeStamp = new Date().getTime();
+      return this;
+   };
+   /**
+    * handles layout of DOM elements
+    *
+    * @method layout
+    * @returns {ParticlesController}
+    * @private
+    */
+   proto.layout = function() {
+      window.requestAnimFrame = (function() {
+         return window.requestAnimationFrame || window.webkitRequestAnimationFrame || window.mozRequestAnimationFrame;
+      })();
+      return this;
+   };
+   /**
+    * Remove any child objects or references to DOM elements.
+    *
+    * @method removeChildren
+    * @returns {Particles}
+    * @public
+    */
+   proto.removeChildren = function() {
+      this.context = null;
+      this.canvasWidth = null;
+      this.canvasHeight = null;
+      this.lastTimeStamp = null;
+      return this;
+   };
+   /**
+    * Enables the component.
+    * Performs any event binding to handlers.
+    * Exits early if it is already enabled.
+    *
+    * @method enable
+    * @public
+    */
+   proto.enable = function() {
+      this.createParticleData();
+      this.renderLoop();
+   };
+   //////////////////////////////////////////////////////////////////////////////////
+   // HELPER METHODS
+   //////////////////////////////////////////////////////////////////////////////////
+   /**
+    * Creates particle data objects
+    *
+    * @method createParticleData
+    * @private
+    */
+   proto.createParticleData = function() {
+      var i = 0;
+      var l = PARTICLE_QUANT;
+      for (; i < l; i++) {
+         this.particles[i] = {};
+         this.setParticleData(this.particles[i]);
+      }
+   };
+   /**
+    * Sets the base particle data
+    *
+    * @method setParticleData
+    * @private
+    */
+   proto.setParticleData = function(particle) {
+      particle.x = Math.random() * this.canvasWidth;
+      particle.y = Math.random() * this.canvasHeight;
+      particle.vx = (Math.random()) - 0.5;
+      particle.vy = (Math.random()) - 0.5;
+   };
+   /**
+    * Updates the particle data object
+    *
+    * @method update
+    * @private
+    */
+   proto.update = function() {
+      var i = 0;
+      var l = PARTICLE_QUANT;
+      for (; i < l; i++) {
+         var particle = this.particles[i];
+         particle.x += particle.vx;
+         particle.y += particle.vy;
+         if (particle.x > this.canvasWidth) {
+            particle.x = this.canvasWidth;
+            particle.vx *= BOUNCE;
+         } else if (particle.x < 0) {
+            particle.x = 0;
+            particle.vx *= BOUNCE;
+         }
+         if (particle.y > this.canvasHeight) {
+            particle.y = this.canvasHeight;
+            particle.vy *= BOUNCE;
+         } else if (particle.y < 0) {
+            particle.y = 0;
+            particle.vy *= BOUNCE;
+         }
+      }
+   };
+   /**
+    * Renders the particle on the canvas
+    *
+    * @method draw
+    * @private
+    */
+   proto.draw = function() {
+      var i = 0;
+      if (!this.context) {
+         return;
+      }
+      this.context.clearRect(0, 0, this.canvasWidth, this.canvasHeight);
+      this.context.strokeStyle = PARTICLE_COLOR;
+      for (; i < PARTICLE_QUANT; i++) {
+         var particle = this.particles[i];
+         this.context.save();
+         this.context.beginPath();
+         this.context.arc(particle.x, particle.y, ARC_RADIUS, 0, Math.PI * 2);
+         this.context.stroke();
+         this.context.restore();
+      }
+   };
+   /**
+    * Creates the animation loop
+    *
+    * @method renderLoop
+    * @private
+    */
+   proto.renderLoop = function() {
+      requestAnimationFrame(this.renderLoop.bind(this));
+      this.update();
+      this.draw();
+   };
+   var particles = new Particles($('#js-particles-two'));
+</script>
+
+</html>
