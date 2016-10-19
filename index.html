@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="description" content="Multi">
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+      <meta name="author" content="JHarrys">
+      <title>kinetic</title>
+      <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <link rel="stylesheet" href="css/delta_style.css">
+      <link rel="stylesheet" href="css/jquery-ui.css">
+      <link rel="stylesheet" href="css/font-awesome.min.css">
+      <link rel="stylesheet" href="css/animate.min.css">
+      <link rel="icon" href="">
+      <link href='https://fonts.googleapis.com/css?family=Michroma' rel='stylesheet' type='text/css'>
+      <link href='https://fonts.googleapis.com/css?family=Jura' rel='stylesheet' type='text/css'>
+      <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+      <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Rajdhani" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Quicksand:300" rel="stylesheet">
+   </head>
+   <body>
+  <!--     <div id="loader"><i class="fa fa-cog fa-spin fa-3x fa-fw"></i></div>
+      <div  class="page-loader-left">
+         <canvas id="js-particles" class="particles" width="1024" height="900"></canvas>
+      </div>
+      <div class="page-loader-right">
+         <canvas id="js-particles-two" class="particles" width="1024" height="900"></canvas>
+      </div> -->
+      <nav class="navbar navbar-default navbar-fixed-top nav-media">
+         <ul id="media" class="list-inline center-block">
+            <li><a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a></li>
+            <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+            <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+         </ul>
+      </nav>
+      <nav class="navbar navbar-default navbar-fixed-top top" id="nav">
+         <div class="container-fluid">
+            <div class="row bar">
+              <div class="col-sm-4 col-md-4 col-lg-4">
+                  <!-- Brand and toggle get grouped for better mobile display -->
+                  <div class="navbar-header">
+                
+                
+                     <a class="navbar-brand" href="#">
+                     <img id="brand" alt="ingenieria kinetic, c.a." src="img/Brand-krew.png" class="img-responsive">
+                     </a>
+                  </div>
+                  </div>
+                  <!-- Collect the nav links, forms, and other content for toggling -->
+              
+                  <div class="col-sm-7 col-md-7 col-lg-7 bar-height">
+                  <div class="  collapse navbar-collapse in" id="bs-example-navbar-collapse-1">
+                     <ul id="anchorage" class="nav navbar-nav">
+
+                        <li class="hidden-xs"><a id="scrollup" href="#top" role="button" class="wow slideInUp"><span class="btn btn-default navigation" id="anchor_zero">Inicio</span><span class="sr-only">(current)</span></a></li>
+
+                        <li class="hidden-sm hidden-md hidden-lg"><a id="scrollup" href="#top" role="button"><span class="btn btn-default navigation" id="anchor_zero_mobile">Inicio</span><span class="sr-only">(current)</span></a></li>
+
+                        <li class="hidden-xs" ><a href="#">&#183;</a></li>
+
+                        <li class="hidden-xs hidden-sm"><a id="scroll" href="#us" role="button" data-offset-top="100"><span class="btn btn-default blank" id="anchor_one">Nosotros</span></a></li>
+
+                        <li class="hidden-md hidden-lg"><a id="scroll" href="#us_mob" role="button" data-offset-top="70"><span class="btn btn-default blank" id="anchor_one_mobile">Nosotros</span></a></li>
+
+                        <li class="hidden-xs" ><a href="#">&#183;</a></li>
+
+                        <li class="hidden-xs hidden-sm"><a id="scroll2" href="#services" role="button" data-offset-top="100"><span class="btn btn-default blank" id="anchor_two">Servicios</span></a></li>
+
+                        <li class="hidden-md hidden-lg"><a id="scroll2" href="#services_mob" role="button" data-offset-top="70"><span class="btn btn-default blank" id="anchor_two_mobile">Servicios</span></a></li>
+
+                        <li class="hidden-xs" ><a href="#">&#183;</a></li>
+
+                        <li><a id="scroll3" href="#foot" role="button"><span class="btn btn-default blank" id="anchor_three">Contacto</span></a></li>
+                     </ul>
+                  </div>
+                  <!-- /.navbar-collapse -->
+               </div>
+               <div class="col-sm-1 col-md-1 col-lg-1">
+               </div>
+               </div>
+            </div>
+         <!-- /.container-fluid -->
+      </nav>
+
+
+     
+           <section class="sectionZero" id="zero">
+         <header id="top">
+
+              <div id="particles-js"></div>
+              <img src="img/Krew_Logo.png" alt="" class="logo img-responsive " >
+            
+         </header>
+         <nav class="navbar navbar-static-bottom nav-frame"></nav>
+         </section>
+         
+
+
+    
+      <div class="container-fluid">
+            <div class="row text-center">
+             <nav id="bottom-nav" class="navbar navbar-default navbar-fixed-bottom shrink">
+             <div class="col-sm-1 col-md-1 col-lg-1" ></div>
+             <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3" id="bottom-mail">
+                <div class="row  text-center">
+                   <p><i class="fa fa-envelope-o fa-2x icons envelope"></i></p>
+                </div>
+                <div class="row text-center">
+                     <p id="mail">ingkinetic@gmail.com</p>
+                </div>
+             </div>
+             <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4" id="bottom-menu">
+             <div class="row">
+                 <ul class="list-inline botIconsList">
+                  <li class="wow flipInY botIcons"  data-wow-duration="3s" data-wow-delay="3.5s"><a href="#top"><span class="fa fa-home fa-2x icons"></span></a><p id="textOne"  class="text">Inicio</p></li>
+                  <li style="font-size:2em;">&CenterDot;</li>
+                  <li class="wow flipInY botIcons"  data-wow-duration="3s" data-wow-delay="3.9s"><a href="#us" ><span class="fa fa-users fa-2x icons"></span></a><p id="textTwo"  class="text">Nosotros</p></li>
+                  <li style="font-size:2em;">&CenterDot;</li>
+                  <li class="wow flipInY botIcons"  data-wow-duration="3s" data-wow-delay="4.4s"><a href="#services" ><span class="fa fa-wrench fa-2x icons"></span></a><p id="textThree"  class="text">Servicios</p></li>
+                <!--   <li  style="font-size:2em;">&CenterDot;</li>
+                  <li  class="wow flipInY botIcons"  data-wow-duration="3s" data-wow-delay="4.9s"><a href="#foot" ><span class="fa fa-envelope fa-2x icons"></span></a><p id="textFour"  class="text">Contacto</p></li> -->
+               </ul>
+             </div>
+            </div>
+            <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3" id="bottom-copyright">
+               <div class="row">
+                  <img src="img/Brand-krew-bot.png" alt="kinetic" class="brand-bot img-responsive">
+                </div>
+<div class="row text-center">
+  
+               <span class="slogan">Digital Enginnering</span>
+         
+</div>
+<div class="row text-center">
+  
+               <span class="copyright">&#169;2016 Ingenieria Kinetic,C.A.</span>
+</div>
+          
+            </div>
+            <div class="col-sm-1 col-md-1 col-lg-1"></div>
+              
+            </nav>
+            </div>
+         
+         </div>
+        <!--  <div class="container-fluid hidden-sm hidden-md hidden-lg">
+      
+  
+                <nav id="bottom-nav" class="navbar navbar-default navbar-fixed-bottom shrink">
+                  <div class="row">
+             <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1" ></div>
+             <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
+                
+             <div class="row center-block text-center">
+                 <ul class="list-inline botIconsList">
+                  <li class="wow flipInY botIcons"  data-wow-duration="3s" data-wow-delay="3.5s"><a href="#top"><span class="fa fa-home fa-3x icons"></span></a><p id="textOne"  class="text">Inicio</p></li>
+                  <li style="font-size:2em;">&CenterDot;</li>
+                  <li class="wow flipInY botIcons"  data-wow-duration="3s" data-wow-delay="3.9s"><a href="#us" ><span class="fa fa-users fa-3x icons"></span></a><p id="textTwo"  class="text">Nosotros</p></li>
+                  <li style="font-size:2em;">&CenterDot;</li>
+                  <li class="wow flipInY botIcons"  data-wow-duration="3s" data-wow-delay="4.4s"><a href="#services" ><span class="fa fa-wrench fa-3x icons"></span></a><p id="textThree"  class="text">Servicios</p></li>
+                  <li  style="font-size:2em;">&CenterDot;</li>
+                  <li  class="wow flipInY botIcons"  data-wow-duration="3s" data-wow-delay="4.9s"><a href="#foot" ><span class="fa fa-envelope fa-3x icons"></span></a><p id="textFour"  class="text">Contacto</p></li>
+               </ul>
+             </div>
+             <div id="bottom-mail">
+                  <div class="row  text-center">
+                   <p><i class="fa fa-envelope-o fa-2x icons envelope"></i></p>
+              
+                   <p id="mail">ingkinetic@gmail.com</p>
+                </div>
+             </div >
+              <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+               </div>
+          
+         
+            </div>
+                <div class="row">
+                    <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8"></div> 
+                    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                      <div id="bottom-copyright pull-right">
+                           <div class="row">
+                              <img style="z-index: 5000;" src="img/Brand-krew-bot.png" alt="kinetic" class="brand-bot img-responsive">
+                           <span class="slogan pull-right">Digital Enginnering</span>
+                           <span class="copyright pull-right">&#169;2016 Ingenieria Kinetic,C.A.</span>
+                           </div>
+                     </div>
+                    </div>
+                     <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div> 
+               </div>
+              
+            </nav>
+
+          
+         
+         </div>
+                  -->
+         
+          <div class="container">
+            <div class="row" id="anchorOneTrigger">
+            <div class="col-xs-2"></div>
+               <div class="col-xs-10 col-sm-12 col-md-12 col-lg-12">
+                  <section>
+                     <div class="row icon-row-one">
+                        <span>
+                        <img src="img/Divider.png" alt="" class="center-block" width="5%">
+                        </span>
+                     </div>
+                     <div class="row">
+                        <p class="text-center quote">
+                           Tu <em><strong>Website</strong></em> te promueve 24/7.
+                        </p>
+                     </div>
+                        <div class="row">
+                           <div class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
+                           </div>
+                           <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+                              <hr class="dotted-line">
+                           </div>
+                           <div class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
+                           </div>
+                        </div>
+                  </section>
+                  </div>
+               </div>
+            </div>
+
+
+      <div class="container-fluid hidden-xs" id="middle">
+         <section class="sectionOne" id="one">
+            <div  class="row">
+            <nav class="navbar navbar-default nav-frame" id="us"></nav>
+               <div id="jumbo" class="jumbotron header">
+                  <div class="content">
+                     <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                           <h1 id="title" class=" wow fadeInUp text-center header-one" data-wow-duration="1.5s" data-wow-delay="0.5s">LA PRIMERA IMPRESION QUEDA...</h1>
+                        </div>
+                     </div>
+                     <div class="row text-center">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 hover-wrap">
+                           <span class="hover wow fadeInUp text-center"  data-wow-duration="1.5s" data-wow-delay="0.7s" >Tu&nbsp;<em>Identidad Corporativa</em></span>
+                       
+                           <span class="wow fadeInUp text-center hover"   data-wow-duration="1.5s" data-wow-delay="0.9s" >  debe ser fuerte, coherente y distintiva, diferenciandote del resto.</span>
+                        </div>
+                     </div>
+                     <div class="row btn-row">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                           <p class=" wow fadeInUp text-center btn-hover"><a><span id="btnjumbo" class="btn btn-primary btn-lg" href="#" role="button" data-wow-duration="1.5s" data-wow-delay="1s">¿Que es Identidad Corporativa?</span></a></p>
+                        </div>
+                     </div>
+                     <div class="row text-center">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                           <span   class="hover wow fadeInUp"   data-wow-duration="1.5s" data-wow-delay="1.2s">La marca e identidad visual de tu compañia juega 
+                           </span>
+                           <span class="hover wow fadeInUp"   data-wow-duration="1.5s" data-wow-delay="1.5s">  un papel critico en como te percibe el publico.
+                           </span>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <nav class="navbar navbar-default nav-frame"></nav>
+            </div>
+         </section>
+         </div>
+         <div class="container-fluid hidden-sm hidden-md hidden-lg">
+         <section class="sectionOne" id="one">
+         <div class="col-xs-2"></div>
+         <div class="col-xs-10">
+                        <div  class="row">
+            <nav class="navbar navbar-default nav-frame" id="us_mob"></nav>
+               <div id="jumbo" class="jumbotron header">
+                  <div class="content">
+                        <div class="col-xs-10">
+                              <div class="row">
+                        <div class="col-xs-12">
+                           <h1 id="title" class=" wow fadeInUp text-center header-one" data-wow-duration="1.5s" data-wow-delay="0.5s">LA PRIMERA IMPRESION QUEDA...</h1>
+                        </div>
+                     </div>
+                     <div class="row text-center">
+                        <div class="col-xs-12 hover-wrap">
+                           <span class="hover wow fadeInUp text-center"  data-wow-duration="1.5s" data-wow-delay="0.7s" ><strong>Tu</strong>&nbsp;<em>Identidad Corporativa</em></span>
+                       
+                           <span class="wow fadeInUp text-center hover"   data-wow-duration="1.5s" data-wow-delay="0.9s" >  debe ser fuerte, coherente y distintiva, diferenciandote del resto.</span>
+                        </div>
+                     </div>
+                     <div class="row text-center">
+                        <div class="col-xs-12">
+                           <span   class="hover wow fadeInUp"   data-wow-duration="1.5s" data-wow-delay="1.2s">La marca e identidad visual de tu compañia juega 
+                           </span>
+                           <span class="hover wow fadeInUp"   data-wow-duration="1.5s" data-wow-delay="1.5s">  un papel critico en como te percibe el publico.
+                           </span>
+                        </div>
+                     </div>
+
+                        </div>
+                        <div class="col-xs-2">
+                           <p class=" text-center btn-column"><a><span id="btnjumbo" class="btn btn-primary btn-lg" href="#" role="button" data-wow-duration="1.5s" data-wow-delay="1s">¿Que es Identidad Corporativa?</span></a></p>
+                     
+                     </div>
+                  </div>
+               </div>
+               <nav class="navbar navbar-default nav-frame"></nav>
+            </div>
+         </div>
+
+         </section>
+         </div>
+         <div class="container">
+            <div class="row" id="anchorTwoTrigger">
+            <div class="col-xs-2"></div>
+               <div class="col-xs-10 col-sm-12 col-md-12 col-lg-12">
+                  <section>
+                     <div class="row icon-row-one">
+                        <span>
+                        <img src="img/Divider.png" alt="" class="center-block" width="5%">
+                        </span>
+                     </div>
+                     <div class="row">
+                        <p class="text-center quote">
+                           En una era donde la informacion es accesible a traves de un click tu <em><strong> Identidad Digital</strong></em> es imprescindible.
+                        </p>
+                     </div>
+                        <div class="row">
+                           <div class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
+                           </div>
+                           <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+                              <hr class="dotted-line">
+                           </div>
+                           <div class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
+                           </div>
+                        </div>
+                  </section>
+                  </div>
+               </div>
+            </div>
+            <div class="container-fluid  hidden-xs" >
+               <section class="sectionTwo" id="two">
+                  <div class="row">
+                  <nav class="navbar navbar-default nav-frame" id="services"></nav>
+                     <div class="jumbotron" id="jumbo-brands">
+                        <div class="row">
+
+                           <div class="col-xs-2 col-sm-4 col-md-4 col-lg-4" id="text-wrapper">
+                             
+                              <div class="row headerTwo">
+                                 <h1 class="headers">Una buena </h1>
+                                 <h1 id="italic"><em>Identidad Digital</em></h1> 
+                                 <h1 class="headers">te permite</h1>
+                              </div>
+                         
+                           </div>
+                           <div class="col-xs-6 col-sm-8 col-md-8 col-lg-8" id="icons-wrapper" >
+                              <div class="row">
+                                 <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
+                                    <div class="row">
+                                       <h1 class=" wow fadeInLeft text-right ic-header" data-wow-delay=".5s">Ocupar un lugar en la mente del público.</h1>
+                                    </div>
+                                    <div class="row">
+                                       <p class="ic-text">El espacio ganado en el pensamiento de las personas te convierte en su primera opcion.</p>
+                                    </div>
+                                 </div>
+                                 <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+                                    <div class="row">
+                                       <img id="brain" class="center-block img-responsive" data-alt-src="img/Icon-brain_hover.png" src="img/Icon-brain.png" alt="...">
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="row">
+                                 <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+                                    <div class="row">
+                                       <img id="crowd" class=" center-block img-responsive" src="img/Icon-crowd.png" alt="...">
+                                    </div>
+                                 </div>
+                                 <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
+                                    <div class="row">
+                                       <h1  class="wow fadeInRight text-left ic-header" data-wow-delay=".5s">Facilitar tu distincion de otras entidades.</h1>
+                                 </div>
+                                 <div class="row">
+                                     <p class="ic-text"> A traves de un perfil unico te defines como una alternativa diferente e innovadora.</p>
+                                 </div>
+                                 </div>
+                              </div>
+                              <div class="row">
+                                 <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
+                                    <div class="row">
+                                       <h1 class="wow fadeInLeft text-right ic-header" data-wow-delay=".5s">Obtener mejores ingresos.</h1>
+                                    </div>
+                                    <div class="row">
+                                       <p class="ic-text"> El publico esta dispuesto a pagar un plus de marca, ya que tu imagen corporativa sería una garantía de calidad superior.</p>
+                                    </div>
+                                 </div>
+                                 <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+                                    <div class="row">
+                                       <img id="chart" class="center-block img-responsive" src="img/Icon-chart.png" alt="...">
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <nav class="navbar nav-frame"></nav>
+                  </div>
+               </section>
+            </div> 
+            <div class="container-fluid hidden-sm hidden-md hidden-lg" >
+            <div class="col-xs-2"></div>
+            <div class="col-xs-10">
+              <section class="sectionTwo" id="two">
+            
+                 
+                <div class="row">
+                 <nav class="navbar navbar-default nav-frame" id="services_mob"></nav>
+                       <div class="jumbotron" id="jumbo-brands">
+                   
+
+                           <div class="row text-center">
+                               <div class="col-xs-2"></div>
+                              <div class="col-xs-8">
+                                <div class="row headerTwo">
+                                 <h1 class="headers">Una buena </h1>
+                                 <h1 id="italic"><em>Identidad Digital</em></h1> 
+                                 <h1 class="headers">te permite</h1>
+                              </div>
+                              </div>
+                                <div class="col-xs-2"></div>
+                           </div>
+                               <div class="col-xs-12">
+                             
+                                       <img id="brain" class="center-block img-responsive" src="img/Icon-brain.png" alt="...">
+                                  
+                                   
+                                   
+                                 </div>
+                                
+                                
+                              <div class="row">
+                                 
+                                 <div class="col-xs-12">
+                                    
+                                       <h1 class=" wow fadeInLeft text-center ic-header" data-wow-delay=".5s">Ocupar un lugar en la mente del público.</h1>
+                          
+                                       <p class="text-center ic-text">El espacio ganado en el pensamiento de las personas te convierte en su primera opcion.</p>
+                                    </div>
+                                     
+                                </div>
+
+                           
+                         
+                              <div class="row center-block">
+                                 <div class="col-xs-12">
+                             
+                          
+                                  
+                                   
+                                       <img id="crowd" class=" center-block img-responsive" src="img/Icon-crowd.png" alt="...">
+                                   
+                                 </div>
+                              </div>
+                                <div class="row">
+                                 <div class="col-xs-12">
+                                
+                                     <h1  class="wow fadeInRight text-center ic-header" data-wow-delay=".5s">Facilitar tu distincion de otras entidades.</h1>
+                            
+                                     <p class="text-center ic-text"> A traves de un perfil unico te defines como una alternativa diferente e innovadora.</p>
+                               
+                                 </div>
+                              </div>
+                                 <div class="row center-block">
+                                      <div class="col-xs-12">
+                                  
+                                       <img id="chart" class="center-block img-responsive" src="img/Icon-chart.png" alt="...">
+                                    </div>
+                                 </div>
+                              <div class="row">
+                                 <div class="col-xs-12">
+                               
+                                       <h1 class="wow fadeInLeft text-center ic-header" data-wow-delay=".5s">Obtener mejores ingresos.</h1>
+                               
+                              
+                                       <p class="text-center ic-text"> El publico esta dispuesto a pagar un plus de marca, ya que tu imagen corporativa sería una garantía de calidad superior.</p>
+                               
+                                 </div>
+                              </div>
+                                
+                              
+                         
+                 
+                     </div>
+                       <nav class="navbar nav-frame" ></nav>
+                </div>
+                   
+                 
+               </section>
+            </div>
+         </div> 
+            <div class="container">
+               <div class="row">
+                  <div class="col-xs-2"></div>
+                  <div class="col-xs-10 col-sm-12 col-md-12 col-lg-12">
+                     <section>
+                        <div class="row icon-row-two">
+                           <span>
+                           <img id="delta_down" src="img/Divider.png" alt="" class="center-block" width="5%">
+                           </span>
+                        </div>
+                        <div class="row">
+                           <p class="text-center quote">Para darte a conocer y expandir tus horizontes rapidamente, tener presencia en la <em><strong>Red</strong></em> es necesario.</p>
+                        </div>
+                       <div class="row">
+                           <div class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
+                           </div>
+                           <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+                              <hr class="dotted-line">
+                           </div>
+                           <div class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
+                           </div>
+                        </div>
+                     </section>
+                  </div>
+               </div>
+            </div>
+
+            <div class="container-fluid">
+                <div class="row">
+          <div class="col-xs-2"></div>
+         <div class=" col-xs-10 col-sm-12 col-md-12 col-lg-12">
+              <section>
+            
+                  <h3 class="services-header text-center ">EL DESARROLLO DE TU IDENTIDAD DIGITAL ABARCA</h3>
+               
+            </section>
+         </div>
+       
+    </div>
+               
+        
+
+            <br>
+            <section>
+            <div class="row hidden-sm hidden-md hidden-lg">
+              <div class="col-xs-12">
+                <img src="img/Design.jpg" alt="" class="img-responsive center-block">
+              </div>
+            </div>
+               <div class="row services-position">
+                  <div class="col-md-8 col-lg-8 right-side-item hidden-xs">
+                     <img class="img-responsive"  src="img/Design.jpg" alt="..." >
+                  </div>
+                   <div class="col-xs-1"></div>
+                  <div class="col-xs-10 col-md-3 col-lg-3 left-side-text">
+                     <h2>Lineamientos de marca</h2>
+                     <p class="services-content"> Mantener uniformidad en la imagen de tu compañía le aporta a ésta mayor presencia y credibilidad.</p>
+                     <br>
+                     <p>Se definen las proporciones, paleta de colores, tipografías y los tamaños de cada elemento.</p>
+                     <div class="row">
+                        <img id="brush" src="img/brush-icon.png" alt="" class="services-icon img-responsive center-block" > 
+                     </div>
+                     <div class="row text-center wow fadeInUp" data-wow-duration="1.5s">
+                        <span class=" wow flash"><em><strong>"Autenticidad de marca es la clave del exito"</strong></em></span>
+                     </div>
+                  </div>
+                  <div class="col-xs-1 col-md-1 col-lg-1"></div>
+               </div>
+               <hr class="hr-services">
+              <div class="row hidden-sm hidden-md hidden-lg">
+                <div class="col-xs-12">
+                  <img src="img/web.jpg" alt="" class="img-responsive center-block">
+                </div>
+             </div>
+               <div class="row services-position">
+                  <div class="col-xs-1 "></div>
+                  <div class="col-xs-10 col-md-3 col-lg-3 right-side-text">
+                     <h2>Presencia en la web</h2>
+                     <p class="services-content"> El facil acceso a la informacion a traves de la red vuelve indispensable poseer una Identidad Digital.</p>
+                     <br>
+                     <p>Podras alcanzar, en forma natural, las primeras posiciones en los buscadores.</p>
+                     <div class="row">
+                        <img id="desktop" src="img/desktop-icon.png" alt="" class=" services-icon img-responsive center-block">
+                     </div>
+                      <div class="row text-center wow fadeInUp" data-wow-duration="1.5s">
+                        <span class=" wow flash"><em><strong>"Obtener presencia en la web es imprescindible"</strong></em></span>
+                     </div>
+                  </div>
+                  <div class="col-xs-8 col-md-8 col-lg-8 left-side-item hidden-xs" >
+                     <img class="img-responsive"  src="img/web.jpg" alt="...">
+                  </div>
+                   <div class="col-xs-1"></div>
+               </div>
+               <hr class="hr-services">
+                      <div class="row hidden-sm hidden-md hidden-lg">
+                <div class="col-xs-12">
+                  <img src="img/front.jpg" alt="" class="img-responsive center-block">
+                </div>
+               </div>
+               <div class="row services-position">
+                  <div class="col-xs-8 col-md-8 col-lg-8 right-side-item hidden-xs">
+                     <img class="img-responsive"  src="img/front.jpg" alt="..." >
+                  </div>
+                  <div class="col-xs-1"></div>
+                  <div class="col-xs-10 col-md-3 col-lg-3 left-side-text">
+                     <h2>Desarrollo <em>Front-End</em></h2>
+                     <p class="services-content"> Una interfaz de usuario apropiada en fundamental para capturar la atencion.</p>
+                     <br>
+                     <p>Con un enfoque primordial en diseño personalizado, la distribucion adecuada de elementos junto a una seleccion apropiada de colores y  fuentes se traduce en un mayor alcance al publico.</p>
+                     <div class="row">
+                        <img id="web" src="img/html-icon.png" alt="" class="services-icon img-responsive center-block">
+                     </div>
+                      <div class="row text-center wow fadeInUp" data-wow-duration="1.5s">
+                        <span class="wow flash"><em><strong>"Tu tarjeta de presentacion al mundo"</strong></em></span>
+                     </div>
+                  </div>
+                  <div class="col-xs-1 col-md-1 col-lg-1"></div>
+               </div>
+               <br>
+            </section>
+            </div>
+
+
+      <footer>
+         <nav  class="navbar navbar-default nav-frame"></nav>
+         <div  class="jumbotron footer">
+         
+             <div class="container-fluid foot-wrapper">
+                  <div class="row text-center" id="foot" >
+                
+                  
+             
+               </div>
+               <div class="row" id="tools">
+                  <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"></div>
+                  <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                     <img src="img/Logo-Renagro.png" alt="" class="img-responsive">
+                   
+                  </div>
+                  <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                   
+                        <img  src="img/Logo_EX_Vector.png" alt="" class="img-responsive">
+                   
+                  </div>
+                    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"></div>
+               </div>
+           
+             </div>
+         </div>
+      </footer>
+   </body>
+   <script src="js/jquery.min.js"></script>
+   <script src="js/jquery-ui.js"></script>
+   <script src="js/bootstrap.min.js"></script>
+   <script src="js/particles.min.js"></script>
+   <script src="js/sketch.min.js"></script>
+   <script src="js/smoothscrolling.jquery.js"></script>
+   <script src="js/jquery.inview.js"></script>
+   <script src="js/jquery.interactive_bg.js"></script>
+   <script src="js/wow.min.js"></script>
+   <script src="js/krewbit.js"></script>
+</html>
