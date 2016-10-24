@@ -1,3 +1,9 @@
+$("html, body").css({
+    height: $(window).height()
+});
+
+
+
  $('#brand, #brand-mobile').hide();
       $("a").smoothscrolling({
          offsetTop:60
