@@ -1,10 +1,11 @@
-function hideAddressBar(){
-  if(document.documentElement.scrollHeight<window.outerHeight/window.devicePixelRatio)
-    document.documentElement.style.height=(window.outerHeight/window.devicePixelRatio)+'px';
-  setTimeout(window.scrollTo(1,1),0);
-}
-window.addEventListener("load",function(){hideAddressBar();});
-window.addEventListener("orientationchange",function(){hideAddressBar();});
+// When ready...
+window.addEventListener("load",function() {
+	// Set a timeout...
+	setTimeout(function(){
+		// Hide the address bar!
+		window.scrollTo(0, 1);
+	}, 0);
+});
 
  $('#brand, #brand-mobile').hide();
       $("a").smoothscrolling({
