@@ -239,6 +239,7 @@ padding-bottom: 2vh;
 }
 
 #bottom-copyright{
+
 	
 }
 #bottom-menu{
@@ -449,11 +450,12 @@ font-weight: lighter;
 }
 .content{
 margin-top: 3.5vh;
+margin-bottom: 3.5vh;
 
 }
 .jumbotron.header{
 
-height: 55vh;
+height: 60vh;
 position: relative;
 background:url(../img/wp6.jpg) fixed  ;
 background-size: contain;
@@ -1047,7 +1049,6 @@ border-radius: 0em;
 transition: all 1s ease-in-out;
 border-radius: 0;
 border-color:rgba(26, 188, 156,0.5); 
-opacity: 0;
 z-index: 5000;
 }
 .icons{
@@ -1824,7 +1825,6 @@ border-radius: 0em;
 transition: all 1s ease-in-out;
 border-radius: 0;
 border-color:rgba(26, 188, 156,0.5); 
-opacity: 0;
 z-index: 5000;
 }
 .icons{
@@ -2341,7 +2341,7 @@ text-decoration: none;
 
 .page-loader-left{
 position: absolute;
-top: 0;
+top: 0;.
 left: : 0;
 width: 50%;
 height: 100%;
@@ -2502,7 +2502,7 @@ background-image: none;background-color: #0f1114;border-top-color: #0f1114;box-s
 	margin-top:10vh;	
 }
 #bottom-copyright{
-margin-top:10vh;	
+margin-top:12vh;	
 }
 .navbar .navbar-nav {
 font-family: 'Michroma',sans-serif;
@@ -2532,14 +2532,7 @@ border-color:rgba(26, 188, 156,0.5);
 opacity: 0;
 z-index: 5000;
 }
-.mobile{
-background-image:none;
-background-color:black;
-margin-top: 3em;
-padding-top: 1em;
-border-color: transparent;
 
-}
 
 
 .icons{
@@ -2565,10 +2558,21 @@ font-size: 1em;
 
 }
 
-p.text{
+
+.text{
+-webkit-transition: all 1000ms ease-out;
+-moz-transition: all 1000ms ease-out;
+-ms-transition: all 1000ms ease-out;
+-o-transition: all 1000ms ease-out;
+transition: all 1000ms ease-out;
 color: #7f8c8d;
+transform: rotate(-90deg);
+font-family: 'Michroma',sans-serif;
+font-size: .7em;
 
 }
+
+
 
 .textHover{
 color: #7f8c8d;
@@ -2593,6 +2597,10 @@ color:#3498db ;
 -ms-transition: all 1000ms ease-out;
 -o-transition: all 1000ms ease-out;
 transition: all 1000ms ease-out;
+padding-top: 3vh;
+}
+.Out{
+	opacity: 0;
 }
 
 .whole-pad{
@@ -2600,7 +2608,7 @@ transition: all 1000ms ease-out;
 }
 
 .half-pad{
-	padding-top: 1.5vh;
+	padding-top: 3vh;
 }
 
 .botIcons:hover p.text{
@@ -3009,42 +3017,42 @@ font-family: 'Michroma',sans-serif;
 font-size: .6em;
 padding-top: 1em;
 -webkit-animation-duration: 1s;
--webkit-animation-delay: 1s;
+-webkit-animation-delay: .5s;
 -moz-animation-duration: 1s;
--moz-animation-delay: 1s;
+-moz-animation-delay: .5s;
 -ms-animation-duration: 1s;
--ms-animation-delay: 1s;
+-ms-animation-delay: .5s;
 -o-animation-duration: 1s;
--o-animation-delay: 1s;
+-o-animation-delay: .5s;
 animation-duration: 1s;
-animation-delay: 1s;
+animation-delay: .5s;
 }
 .copyright{
 font-size: .6em;
 font-family: 'Michroma',sans-serif;
 padding-top: 1em;
--webkit-animation-duration: 2s;				
--webkit-animation-delay: 1.5s;
--moz-animation-duration: 2s;
--moz-animation-delay: 1.5s;
--ms-animation-duration: 2s;
--ms-animation-delay: 1.5s;
--o-animation-duration: 2s;
--o-animation-delay: 1.5s;
-animation-duration: 2s;
-animation-delay: 1.5s;
+-webkit-animation-duration: 1s;
+-webkit-animation-delay: .5s;
+-moz-animation-duration: 1s;
+-moz-animation-delay: .5s;
+-ms-animation-duration: 1s;
+-ms-animation-delay: .5s;
+-o-animation-duration: 1s;
+-o-animation-delay: .5s;
+animation-duration: 1s;
+animation-delay: .5s;
 }
 .envelope, #mail{
--webkit-animation-duration: 1.5s;				
--webkit-animation-delay: 1.5s;
--moz-animation-duration: 1.5s;
--moz-animation-delay: 1.5s;
--ms-animation-duration: 1.5s;
--ms-animation-delay: 1.5s;
--o-animation-duration: 1.5s;
--o-animation-delay: 1.5s;
-animation-duration: 1.5s;
-animation-delay: 1.5s;	
+-webkit-animation-duration: 1s;
+-webkit-animation-delay: .5s;
+-moz-animation-duration: 1s;
+-moz-animation-delay: .5s;
+-ms-animation-duration: 1s;
+-ms-animation-delay: .5s;
+-o-animation-duration: 1s;
+-o-animation-delay: .5s;
+animation-duration: 1s;
+animation-delay: .5s;
 }
 /*end of footer*/
 #bot1,#bot2,#bot3,#bot4,#bot5:hover{
@@ -3231,7 +3239,7 @@ background-image: none;background-color: #0f1114;border-top-color: #0f1114;box-s
 	margin-top:10vh;	
 }
 #bottom-copyright{
-margin-top:10vh;	
+margin-top:12vh;	
 }
 .navbar .navbar-nav {
 font-family: 'Michroma',sans-serif;
@@ -3291,8 +3299,17 @@ transition: all 1000ms ease-out;
 
 }
 
+
 .text{
+-webkit-transition: all 1000ms ease-out;
+-moz-transition: all 1000ms ease-out;
+-ms-transition: all 1000ms ease-out;
+-o-transition: all 1000ms ease-out;
+transition: all 1000ms ease-out;
 color: #7f8c8d;
+transform: rotate(-90deg);
+font-family: 'Michroma',sans-serif;
+font-size: .7em;
 
 }
 
@@ -3320,6 +3337,7 @@ color:#3498db ;
 -ms-transition: all 1000ms ease-out;
 -o-transition: all 1000ms ease-out;
 transition: all 1000ms ease-out;
+padding-top: 3vh;
 }
 
 
@@ -3327,6 +3345,17 @@ transition: all 1000ms ease-out;
 text-decoration: none;
 transform: rotateX(0deg);
 
+
+}
+.Out{
+	opacity: 0;
+}
+.half-pad{
+	padding-top: 3vh;
+}
+
+.whole-pad{
+	padding-top: 12vh;
 }
 .empty{
 color:transparent;
@@ -3942,10 +3971,10 @@ transition: all 1000ms ease-out;
 background-image: none;background-color: #0f1114;border-top-color: #0f1114;box-shadow: none;
 }
 #bottom-mail{
-	margin-top:10vh;	
+	margin-top:12vh;	
 }
 #bottom-copyright{
-margin-top:10vh;	
+margin-top:14vh;	
 }
 .navbar .navbar-nav {
 font-family: 'Michroma',sans-serif;
@@ -4005,10 +4034,20 @@ transition: all 1000ms ease-out;
 
 }
 
+
 .text{
+-webkit-transition: all 1000ms ease-out;
+-moz-transition: all 1000ms ease-out;
+-ms-transition: all 1000ms ease-out;
+-o-transition: all 1000ms ease-out;
+transition: all 1000ms ease-out;
 color: #7f8c8d;
+transform: rotate(-90deg);
+font-family: 'Michroma',sans-serif;
+font-size: .5em;
 
 }
+
 
 
 p.textHover{
@@ -4021,7 +4060,7 @@ font-family: 'Michroma',sans-serif;
 -ms-transition: all 1000ms ease-out;
 -o-transition: all 1000ms ease-out;
 transition: all 1000ms ease-out;
-font-size: .7em;
+font-size: .5em;
 }
 
 .icons:hover{
@@ -4035,13 +4074,18 @@ color:#3498db ;
 -ms-transition: all 1000ms ease-out;
 -o-transition: all 1000ms ease-out;
 transition: all 1000ms ease-out;
+padding-top: 5vh;
+}
+
+.Out{
+	opacity: 0;
 }
 .whole-pad{
-	padding-top: 12vh;
+	padding-top: 15vh;
 }
 
 .half-pad{
-	padding-top: 1.54vh;
+	padding-top: 3.5vh;
 }
 
 .botIcons:hover p.text{
@@ -4059,10 +4103,10 @@ opacity: 1;
 opacity: 0;
 }
 .half{
-height: 10vh;
+height: 14vh;
 }
 .whole{
-  height:30vh;
+  height:35vh;
 }
 .fadeIn{
 background-color: #000000;
@@ -4689,26 +4733,12 @@ border-color:rgba(26, 188, 156,0.5);
 opacity: 0;
 z-index: 5000;
 }
-.mobile{
-background-image:none;
-background-color:black;
-margin-top: 3em;
-padding-top: 1em;
-border-color: transparent;
-
-}
-
 
 
 
 .Out{
 	opacity: 0;
-	
-
-}
-.border{
-	border-right: solid 1px #7f8c8d;
-}
+	}
 
 .icons{
 color: #7f8c8d;
@@ -4731,7 +4761,7 @@ font-size: .7em;
 }
 
 .text{
-	-webkit-transition: all 1000ms ease-out;
+-webkit-transition: all 1000ms ease-out;
 -moz-transition: all 1000ms ease-out;
 -ms-transition: all 1000ms ease-out;
 -o-transition: all 1000ms ease-out;
@@ -5204,43 +5234,43 @@ font-size: .6em;
 padding-top: 1em;
 float: right;
 -webkit-animation-duration: 1s;
--webkit-animation-delay: 1s;
+-webkit-animation-delay: .5s;
 -moz-animation-duration: 1s;
--moz-animation-delay: 1s;
+-moz-animation-delay: .5s;
 -ms-animation-duration: 1s;
--ms-animation-delay: 1s;
+-ms-animation-delay: .5s;
 -o-animation-duration: 1s;
--o-animation-delay: 1s;
+-o-animation-delay: .5s;
 animation-duration: 1s;
-animation-delay: 1s;
+animation-delay: .5s;
 }
 .copyright{
 font-size: .6em;
 font-family: 'Michroma',sans-serif;
 padding-top: 1em;
 float: right;
--webkit-animation-duration: 2s;				
--webkit-animation-delay: 1.5s;
--moz-animation-duration: 2s;
--moz-animation-delay: 1.5s;
--ms-animation-duration: 2s;
--ms-animation-delay: 1.5s;
--o-animation-duration: 2s;
--o-animation-delay: 1.5s;
-animation-duration: 2s;
-animation-delay: 1.5s;
+-webkit-animation-duration: 1s;
+-webkit-animation-delay: .5s;
+-moz-animation-duration: 1s;
+-moz-animation-delay: .5s;
+-ms-animation-duration: 1s;
+-ms-animation-delay: .5s;
+-o-animation-duration: 1s;
+-o-animation-delay: .5s;
+animation-duration: 1s;
+animation-delay: .5s;
 }
 .envelope, #mail{
--webkit-animation-duration: 1.5s;				
--webkit-animation-delay: 1.5s;
--moz-animation-duration: 1.5s;
--moz-animation-delay: 1.5s;
--ms-animation-duration: 1.5s;
--ms-animation-delay: 1.5s;
--o-animation-duration: 1.5s;
--o-animation-delay: 1.5s;
-animation-duration: 1.5s;
-animation-delay: 1.5s;	
+--webkit-animation-duration: 1s;
+-webkit-animation-delay: .5s;
+-moz-animation-duration: 1s;
+-moz-animation-delay: .5s;
+-ms-animation-duration: 1s;
+-ms-animation-delay: .5s;
+-o-animation-duration: 1s;
+-o-animation-delay: .5s;
+animation-duration: 1s;
+animation-delay: .5s;
 }
 /*end of footer*/
 #bot1,#bot2,#bot3,#bot4,#bot5:hover{

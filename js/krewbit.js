@@ -6,8 +6,6 @@ function hideAddressBar(){
 window.addEventListener("load",function(){hideAddressBar();});
 window.addEventListener("orientationchange",function(){hideAddressBar();});
 
-
-
  $('#brand, #brand-mobile').hide();
       $("a").smoothscrolling({
          offsetTop:60
