@@ -354,7 +354,7 @@ opacity: 0;
 height: 12vh;
 }
 .whole{
-  height:40vh;
+  height:45vh;
  
 }
 .fadeIn{
@@ -659,7 +659,7 @@ color: #000000;}
 /*footer*/
 
 .jumbotron.footer{
-height: 90vh;
+height: 95vh;
 position: relative;
 /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#252525+0,252525+100 */
 background: rgb(37,37,37) , url(../img/whitebgtwo.jpg) center fixed  ; /* Old browsers */
