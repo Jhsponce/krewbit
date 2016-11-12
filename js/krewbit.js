@@ -1,10 +1,11 @@
-function hideAddressBar(){
-  if(document.documentElement.scrollHeight<window.outerHeight/window.devicePixelRatio)
-    document.documentElement.style.height=(window.outerHeight/window.devicePixelRatio)+'px';
-  setTimeout(window.scrollTo(1,1),0);
-}
-window.addEventListener("load",function(){hideAddressBar();});
-window.addEventListener("orientationchange",function(){hideAddressBar();});
+// When ready...
+window.addEventListener("load",function() {
+  // Set a timeout...
+  setTimeout(function(){
+    // Hide the address bar!
+    window.scrollTo(0, 1);
+  }, 0);
+});
 
  $('#brand, #brand-mobile').hide();
       $("a").smoothscrolling({
@@ -130,7 +131,7 @@ window.addEventListener("orientationchange",function(){hideAddressBar();});
             $(window).on('scroll', function() {
             var offSetTop = $(this).scrollTop();
             var navHeight = $('#nav').height();
-            var offSet  = $('#delta_down').offset().top;
+            var offSet  = $('#trigger').offset().top;
             if(offSet > offSetTop) { 
        $("#nav" ).removeClass('animated slideOutUp');
        $("#nav" ).addClass('animated slideInDown');
@@ -170,6 +171,7 @@ window.addEventListener("orientationchange",function(){hideAddressBar();});
       new WOW().init();
 
       $('#media').addClass('animated slideInLeft');
+      
      
 
       
@@ -200,18 +202,18 @@ window.addEventListener("orientationchange",function(){hideAddressBar();});
       
       
          setTimeout(function () {
-         $('#brain').attr('src','img/Icon-brain_hover.png');
+         $('#brain').attr('src','img/brain_flip.png');
          }, 500)
       
       
            setTimeout(function () {
-         $('#crowd').attr('src','img/Icon-crowd_hover.png');
+         $('#crowd').attr('src','img/brand_flip.png');
          }, 500)
       
        
       
            setTimeout(function () {
-         $('#chart').attr('src','img/Icon-chart_hover.png');
+         $('#chart').attr('src','img/income_flip.png');
          },500)
       
       }, function () {
@@ -224,39 +226,82 @@ window.addEventListener("orientationchange",function(){hideAddressBar();});
          $('#chart').removeClass('rotateR');
       
          setTimeout(function () {
-         $('#brain').attr('src','img/Icon-brain.png');
+         $('#brain').attr('src','img/brain.png');
          }, 500)
       
         
       
          setTimeout(function () {
-         $('#crowd').attr('src','img/Icon-crowd.png');
+         $('#crowd').attr('src','img/brand.png');
          }, 500)
       
          
       
          setTimeout(function () {
-         $('#chart').attr('src','img/Icon-chart.png');
+         $('#chart').attr('src','img/income.png');
          }, 500)
       }
       
       );
       
 
-      $(document).ready(function() { setTimeout(function () {
+      $(window).load(function() { setTimeout(function () {
        $('#nav').addClass('show');
       }, 2600)})
       
-      $(document).ready(function() { setTimeout(function () {
+      $(window).load(function() { setTimeout(function () {
        $('#loader').fadeOut();
       }, 1500)})
+
       
-      $(document).ready(function() { setTimeout(function () {
+      $(window).load(function() { setTimeout(function () {
       
        $('.page-loader-left').addClass('left-loaded');
        $('.page-loader-right').addClass('right-loaded');
+
+  
+
+      }, 3200)})
+
+        $(window).load(function() { setTimeout(function () {
+      
+       $('.page-loader-top').addClass('top-loaded');
+      
+       
        $('#loader').fadeOut();
-      }, 2100)})
+    
+
+      }, 2600)})
+         $(window).load(function() { setTimeout(function () {
+      
+       $('.page-loader-mid-one').addClass('mid-one-loaded');
+      
+       
+
+
+      }, 2000)})
+          $(window).load(function() { setTimeout(function () {
+      
+       $('.page-loader-mid-two').addClass('mid-two-loaded');
+      
+       
+
+
+      }, 1400)})
+           $(window).load(function() { setTimeout(function () {
+      
+       $('.page-loader-bottom').addClass('bottom-loaded');
+       $('.loader').addClass('loaded');
+      
+       
+   
+
+      }, 800)})
+        
+        
+        
+
+      
       
       
       window.onbeforeunload = function(){
@@ -264,21 +309,21 @@ window.addEventListener("orientationchange",function(){hideAddressBar();});
       }
       
       $('#btn-three').click(function () {
-      $('#nav, #nav-mobile, .navbar-nav,.navbar-brand').addClass('fade');
+      $('#nav, #nav-mobile, .navbar-nav,.navbar-brand').addClass('fading');
       $('.brand').fadeOut(500);
       })
       $('#bot2,#bot3,#bot4').click(function () {
       $('.brand').fadeIn(2000);
       $('#nav, #nav-mobile, .navbar-nav,.navbar-brand').fadeIn(500);
-      $('#nav, #nav-mobile, .navbar-nav,.navbar-brand').removeClass('fade');
+      $('#nav, #nav-mobile, .navbar-nav,.navbar-brand').removeClass('fading');
       })
       $( '#bot1,#bot5').click(function() {
       $( ".navbar" ).removeClass('shrink');
       $('#nav, #nav-mobile, .navbar-nav,.navbar-brand').show(500);
-      $('#nav, #nav-mobile, .navbar-nav,.navbar-brand').removeClass('fade');
+      $('#nav, #nav-mobile, .navbar-nav,.navbar-brand').removeClass('fading');
       })
       $( '#bot6').click(function() {
-      $('#nav, #nav-mobile, .navbar-nav,.navbar-brand').removeClass('fade');
+      $('#nav, #nav-mobile, .navbar-nav,.navbar-brand').removeClass('fading');
       $('#nav, #nav-mobile, .navbar-nav,.navbar-brand').show(500);
       $('.brand').fadeIn(500);
       })
