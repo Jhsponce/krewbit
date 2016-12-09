@@ -57,10 +57,11 @@ transform: translate(-50%,-50%);
 
 html,body{
 height: 100%;
-background-color: white;
+background-color: #fff;
 max-width: 100%;
 font-size: 10px;
 }
+.lines{color: #7f8c8d;}
 
 header{
 background-image: url(../img/header-bg.jpg);
@@ -88,7 +89,7 @@ src:url(../fonts/space_age.ttf);
 p{
 /*color: #252b33;*/
 color: #979ea4;
-font-family: 'Raleway', sans-serif;
+font-family: 'Michroma', sans-serif;
 font-size: 1.2em;
 }
 h5{
@@ -100,7 +101,7 @@ hr{
 border-color: #000000;
 }
 span{
-font-family: 'Raleway',sans-serif;
+font-family: 'Michroma',sans-serif;
 font-size: 1.2em;
 color: #979ea4;
 }
@@ -314,7 +315,7 @@ font-size: 1em;
 }
 
 .icons:hover{
-transform: rotateY(180deg);
+transform: rotateX(180deg);
 color:#3498db ;
 }
 
@@ -516,7 +517,7 @@ border-top-right-radius: 0;
 /*middle*/
 
 .headerTwo{font-size: .6em;
-font-family: 'Quicksand', sans-serif;
+font-family: 'Rajdhani', sans-serif;
 font-weight: lighter;
 }
 .jumbotron{
@@ -527,7 +528,7 @@ background-color: #000000;
 border:none;
 background-position: center;
 background-attachment: fixed;
-font-family: 'Quicksand', sans-serif;
+font-family: 'Rajdhani', sans-serif;
 color:#e67e22;
 -webkit-transition: all 2000ms ease-out;
 -moz-transition: all 2000ms ease-out;
@@ -553,32 +554,32 @@ outline:1px solid transparent;
 width: 5em;
 }
 .rotateR{
--moz-transform: rotateY(180deg);
--webkit-transform: rotateY(180deg);
--o-transform: rotateY(180deg);
--ms-transform: rotateY(180deg);
-transform: rotateY(180deg);
+-moz-transform: rotateX(180deg);
+-webkit-transform: rotateX(180deg);
+-o-transform: rotateX(180deg);
+-ms-transform: rotateX(180deg);
+transform: rotateX(180deg);
 }
 .rotateL{
--moz-transform: rotateY(-180deg);
--webkit-transform: rotateY(-180deg);
--o-transform: rotateY(-180deg);
--ms-transform: rotateY(-180deg);
-transform: rotateY(-180deg);
+-moz-transform: rotateX(-180deg);
+-webkit-transform: rotateX(-180deg);
+-o-transform: rotateX(-180deg);
+-ms-transform: rotateX(-180deg);
+transform: rotateX(-180deg);
 }
 p.ic-text{
-	color: #8e9fb5; font-size:1em; text-align:center;
+	color: #8e9fb5; font-family: 'Jura',sans-serif; font-size:1em; text-align:center;
 }
 h1.ic-header{
-	font-family: 'Poiret One', cursive; font-size:1.5em; font-weight:bold;
+	font-family: 'Jura', cursive; font-size:1.5em; font-weight:bold;
 }
 h1.headers {font-size: 3.2em;
-font-family: 'Quicksand', sans-serif;
+font-family: 'Rajdhani', sans-serif;
 
 
 }
 #italic{
-	font-family: 'Quicksand', sans-serif;
+	font-family: 'Rajdhani', sans-serif;
 	font-size: 3.5em;
 	color:#ff3366;
 }
@@ -605,7 +606,7 @@ right: 1%;
 }
 .quote{
 
-	font-family: 'Jura',sans-serif; font-size: 1em;
+	font-family: 'Jura',sans-serif; font-size: 1em; color: #34495e;
 
 }
 
@@ -617,7 +618,8 @@ right: 1%;
 /*end of dividers*/
 
 /*services*/
-
+.services-info{font-family: 'Jura', sans-serif;}
+.services-quote{font-family: 'Jura', sans-serif;}
 .services-header{
 	font-family: 'Rajdhani',sans-serif;	
 }
@@ -626,7 +628,7 @@ right: 1%;
 }
 
 .services-content{
-	color:#7e8890;font-size: 1.5em;	
+	color:#7e8890;font-size: 1.5em;font-family: 'Rajdhani',sans-serif;		
 }
 .services-icon{
 	opacity: 0.7;
@@ -840,10 +842,11 @@ transform: translate(-50%,-50%);
 }
 html,body{
 height: 100%;
-background-color: white;
+background-color: #fff;
 max-width: 100%;
 font-size: 10px;
 }
+.lines{color: #7f8c8d;}
 header{
 background-image: url(../img/header-bg.jpg);
 background-repeat: no-repeat;
@@ -868,7 +871,7 @@ src:url(../fonts/space_age.ttf);
 p{
 /*color: #252b33;*/
 color: #979ea4;
-font-family: 'Raleway', sans-serif;
+font-family: 'Michroma', sans-serif;
 font-size: 1.2em;
 }
 h5{
@@ -880,7 +883,7 @@ hr{
 border-color: #000000;
 }
 span{
-font-family: 'Raleway',sans-serif;
+font-family: 'Michroma',sans-serif;
 font-size: 1.2em;
 color: #979ea4;
 }
@@ -1092,7 +1095,7 @@ font-size: 1em;
 }
 
 .icons:hover{
-transform: rotateY(180deg);
+transform: rotateX(180deg);
 color:#3498db ;
 }
 
@@ -1291,7 +1294,7 @@ border-top-right-radius: 0;
 /*middle*/
 
 .headerTwo{font-size: .6em;
-font-family: 'Quicksand', sans-serif;
+font-family: 'Rajdhani', sans-serif;
 font-weight: lighter;
 }
 .jumbotron{
@@ -1302,7 +1305,7 @@ background-color: #000000;
 border:none;
 background-position: center;
 background-attachment: fixed;
-font-family: 'Quicksand', sans-serif;
+font-family: 'Rajdhani', sans-serif;
 color:#e67e22;
 -webkit-transition: all 2000ms ease-out;
 -moz-transition: all 2000ms ease-out;
@@ -1328,32 +1331,32 @@ outline:1px solid transparent;
 width: 5em;
 }
 .rotateR{
--moz-transform: rotateY(180deg);
--webkit-transform: rotateY(180deg);
--o-transform: rotateY(180deg);
--ms-transform: rotateY(180deg);
-transform: rotateY(180deg);
+-moz-transform: rotateX(180deg);
+-webkit-transform: rotateX(180deg);
+-o-transform: rotateX(180deg);
+-ms-transform: rotateX(180deg);
+transform: rotateX(180deg);
 }
 .rotateL{
--moz-transform: rotateY(-180deg);
--webkit-transform: rotateY(-180deg);
--o-transform: rotateY(-180deg);
--ms-transform: rotateY(-180deg);
-transform: rotateY(-180deg);
+-moz-transform: rotateX(-180deg);
+-webkit-transform: rotateX(-180deg);
+-o-transform: rotateX(-180deg);
+-ms-transform: rotateX(-180deg);
+transform: rotateX(-180deg);
 }
 p.ic-text{
-	color: #8e9fb5; font-size:1.4em; text-align:center;
+	color: #8e9fb5; font-family: 'Jura',sans-serif; font-size:1.4em; text-align:center;
 }
 h1.ic-header{
-	font-family: 'Poiret One', cursive; font-size:1.8em; font-weight:bold;
+	font-family: 'Jura', cursive; font-size:1.8em; font-weight:bold;
 }
 h1.headers {font-size: 3.5em;
-font-family: 'Quicksand', sans-serif;
+font-family: 'Rajdhani', sans-serif;
 
 
 }
 #italic{
-	font-family: 'Quicksand', sans-serif;
+	font-family: 'Rajdhani', sans-serif;
 	font-size: 3.5em;
 	color:#ff3366;
 }
@@ -1384,7 +1387,7 @@ right: 1%;
 }
 .quote{
 
-	font-family: 'Jura',sans-serif; font-size: 1em;
+	font-family: 'Jura',sans-serif; font-size: 1em;color: #34495e;
 
 }
 
@@ -1396,7 +1399,8 @@ right: 1%;
 /*end of dividers*/
 
 /*services*/
-
+.services-info{font-family: 'Jura', sans-serif;}
+.services-quote{font-family: 'Jura', sans-serif;}
 .services-header{
 	font-family: 'Rajdhani',sans-serif;	
 }
@@ -1405,7 +1409,7 @@ right: 1%;
 }
 
 .services-content{
-	color:#7e8890;font-size: 1.5em;	
+	color:#7e8890;font-size: 1.5em;font-family: 'Rajdhani',sans-serif;		
 }
 .services-icon{
 	opacity: 0.7;
@@ -1616,10 +1620,11 @@ transform: translate(-50%,-50%);
 }
 html,body{
 height: 100%;
-background-color: white;
+background-color: #fff;
 max-width: 100%;
 font-size: 10px;
 }
+.lines{color: #7f8c8d;}
 header{
 background-image: url(../img/header-bg.jpg);
 background-repeat: no-repeat;
@@ -1644,7 +1649,7 @@ src:url(../fonts/space_age.ttf);
 p{
 /*color: #252b33;*/
 color: #979ea4;
-font-family: 'Raleway', sans-serif;
+font-family: 'Michroma', sans-serif;
 font-size: 1.2em;
 }
 h5{
@@ -1656,7 +1661,7 @@ hr{
 border-color: #000000;
 }
 span{
-font-family: 'Raleway',sans-serif;
+font-family: 'Michroma',sans-serif;
 font-size: 1.2em;
 color: #979ea4;
 }
@@ -1868,7 +1873,7 @@ font-size: 1em;
 }
 
 .icons:hover{
-transform: rotateY(180deg);
+transform: rotateX(180deg);
 color:#3498db ;
 }
 
@@ -2067,7 +2072,7 @@ border-top-right-radius: 0;
 /*middle*/
 
 .headerTwo{font-size: .6em;
-font-family: 'Quicksand', sans-serif;
+font-family: 'Rajdhani', sans-serif;
 font-weight: lighter;
 }
 .jumbotron{
@@ -2078,7 +2083,7 @@ background-color: #000000;
 border:none;
 background-position: center;
 background-attachment: fixed;
-font-family: 'Quicksand', sans-serif;
+font-family: 'Rajdhani', sans-serif;
 color:#e67e22;
 -webkit-transition: all 2000ms ease-out;
 -moz-transition: all 2000ms ease-out;
@@ -2104,32 +2109,32 @@ outline:1px solid transparent;
 width: 5em;
 }
 .rotateR{
--moz-transform: rotateY(180deg);
--webkit-transform: rotateY(180deg);
--o-transform: rotateY(180deg);
--ms-transform: rotateY(180deg);
-transform: rotateY(180deg);
+-moz-transform: rotateX(180deg);
+-webkit-transform: rotateX(180deg);
+-o-transform: rotateX(180deg);
+-ms-transform: rotateX(180deg);
+transform: rotateX(180deg);
 }
 .rotateL{
--moz-transform: rotateY(-180deg);
--webkit-transform: rotateY(-180deg);
--o-transform: rotateY(-180deg);
--ms-transform: rotateY(-180deg);
-transform: rotateY(-180deg);
+-moz-transform: rotateX(-180deg);
+-webkit-transform: rotateX(-180deg);
+-o-transform: rotateX(-180deg);
+-ms-transform: rotateX(-180deg);
+transform: rotateX(-180deg);
 }
 p.ic-text{
-	color: #8e9fb5; font-size:1.5em; text-align:center;
+	color: #8e9fb5; font-family: 'Jura',sans-serif; font-size:1.5em; text-align:center;
 }
 h1.ic-header{
-	font-family: 'Poiret One', cursive; font-size:2em; font-weight:bold;
+	font-family: 'Jura', cursive; font-size:2em; font-weight:bold;
 }
 h1.headers {font-size: 3.2em;
-font-family: 'Quicksand', sans-serif;
+font-family: 'Rajdhani', sans-serif;
 
 
 }
 #italic{
-	font-family: 'Quicksand', sans-serif;
+	font-family: 'Rajdhani', sans-serif;
 	font-size: 3.5em;
 	color:#ff3366;
 }
@@ -2160,7 +2165,7 @@ right: 1%;
 }
 .quote{
 
-	font-family: 'Jura',sans-serif; font-size: 1em;
+	font-family: 'Jura',sans-serif; font-size: 1em;color: #34495e;
 
 }
 
@@ -2172,7 +2177,8 @@ right: 1%;
 /*end of dividers*/
 
 /*services*/
-
+.services-info{font-family: 'Jura', sans-serif;}
+.services-quote{font-family: 'Jura', sans-serif;}
 .services-header{
 	font-family: 'Rajdhani',sans-serif;	
 }
@@ -2181,7 +2187,7 @@ right: 1%;
 }
 
 .services-content{
-	color:#7e8890;font-size: 1.5em;	
+	color:#7e8890;font-size: 1.5em;font-family: 'Rajdhani',sans-serif;		
 }
 .services-icon{
 	opacity: 0.7;
@@ -2394,10 +2400,11 @@ transform: translate(-50%,-50%);
 }
 html,body{
 height: 100%;
-background-color: white;
+background-color: #fff;
 max-width: 100%;
 font-size: 11px;
 }
+.lines{color: #7f8c8d;}
 header{
 background-image: url(../img/header-bg.jpg);
 background-repeat: no-repeat;
@@ -2421,7 +2428,7 @@ src:url(../fonts/space_age.ttf);
 p{
 /*color: #252b33;*/
 color: #979ea4;
-font-family: 'Raleway', sans-serif;
+font-family: 'Michroma', sans-serif;
 font-size: 1em;
 }
 h5{
@@ -2433,7 +2440,7 @@ hr{
 border-color: #000000;
 }
 span{
-font-family: 'Raleway',sans-serif;
+font-family: 'Michroma',sans-serif;
 font-size: 1.2em;
 color: #979ea4;
 
@@ -2566,7 +2573,6 @@ font-size: 1em;
 -o-transition: all 1000ms ease-out;
 transition: all 1000ms ease-out;
 color: #7f8c8d;
-transform: rotate(-90deg);
 font-family: 'Michroma',sans-serif;
 font-size: .7em;
 
@@ -2587,7 +2593,7 @@ transition: all 1000ms ease-out;
 }
 
 .icons:hover{
-transform: rotateY(180deg);
+transform: rotateX(180deg);
 color:#3498db ;
 }
 
@@ -2796,7 +2802,7 @@ background-color: #000000;
 border:none;
 background-position: center;
 background-attachment: fixed;
-font-family: 'Quicksand', sans-serif;
+font-family: 'Rajdhani', sans-serif;
 color: #bdc3c7;
 -webkit-transition: all 2000ms ease-out;
 -moz-transition: all 2000ms ease-out;
@@ -2832,32 +2838,32 @@ width: 6em;
 
 }
 .rotateR{
--moz-transform: rotateY(180deg);
--webkit-transform: rotateY(180deg);
--o-transform: rotateY(180deg);
--ms-transform: rotateY(180deg);
-transform: rotateY(180deg);
+-moz-transform: rotateX(180deg);
+-webkit-transform: rotateX(180deg);
+-o-transform: rotateX(180deg);
+-ms-transform: rotateX(180deg);
+transform: rotateX(180deg);
 }
 .rotateL{
--moz-transform: rotateY(-180deg);
--webkit-transform: rotateY(-180deg);
--o-transform: rotateY(-180deg);
--ms-transform: rotateY(-180deg);
-transform: rotateY(-180deg);
+-moz-transform: rotateX(-180deg);
+-webkit-transform: rotateX(-180deg);
+-o-transform: rotateX(-180deg);
+-ms-transform: rotateX(-180deg);
+transform: rotateX(-180deg);
 }
 p.ic-text{
-	color: #8e9fb5; font-size:1em; text-align:justify; padding-left:1.9em; padding-right:1.9em;
+	color: #8e9fb5; font-family: 'Jura',sans-serif; font-size:1em; text-align:justify; padding-left:1.9em; padding-right:1.9em;
 }
 h1.ic-header{
-	font-family: 'Poiret One', cursive; font-size:1.5em; font-weight:bold;padding-left:1.9em;padding-right:1.9em;
+	font-family: 'Jura', cursive; font-size:1.5em; font-weight:bold;padding-left:1.9em;padding-right:1.9em;
 }
 h1.headers {font-size: 3.5em;
-font-family: 'Quicksand', sans-serif;
+font-family: 'Rajdhani', sans-serif;
 padding: 0;
 
 }
 #italic{
-	font-family: 'Quicksand', sans-serif;
+	font-family: 'Rajdhani', sans-serif;
 	font-size: 3.7em;
 	color:#ff3366;
 }
@@ -2887,7 +2893,7 @@ right: 1%;
 }
 .quote{
 
-	font-family: 'Jura',sans-serif; font-size: 1.3em;
+	font-family: 'Jura',sans-serif; font-size: 1.3em;color: #34495e;
 
 }
 
@@ -2898,7 +2904,8 @@ right: 1%;
 /*end of dividers*/
 
 /*services*/
-
+.services-info{font-family: 'Jura', sans-serif;}
+.services-quote{font-family: 'Jura', sans-serif;}
 .services-header{
 	font-family: 'Rajdhani',sans-serif;	
 }
@@ -2918,7 +2925,7 @@ display: flex;align-items: center;justify-content: center;
 	margin-left: 1em;padding-right:0em;	
 }
 .services-content{
-	color:#7e8890;font-size: 1.2em;	
+	color:#7e8890;font-size: 1.2em;font-family: 'Rajdhani',sans-serif;		
 }
 .services-icon{
 	opacity: 0.7;
@@ -3129,10 +3136,11 @@ transform: translate(-50%,-50%);
 }
 html,body{
 height: 100%;
-background-color: white;
+background-color: #fff;
 max-width: 100%;
 font-size: 10px;
 }
+.lines{color: #7f8c8d;}
 header{
 background-image: url(../img/header-bg.jpg);
 background-repeat: no-repeat;
@@ -3156,7 +3164,7 @@ src:url(../fonts/space_age.ttf);
 p{
 /*color: #252b33;*/
 color: #979ea4;
-font-family: 'Raleway', sans-serif;
+font-family: 'Michroma', sans-serif;
 font-size: 1em;
 }
 h5{
@@ -3168,7 +3176,7 @@ hr{
 border-color: #000000;
 }
 span{
-font-family: 'Raleway',sans-serif;
+font-family: 'Michroma	',sans-serif;
 font-size: 1.2em;
 color: #979ea4;
 }
@@ -3307,7 +3315,6 @@ transition: all 1000ms ease-out;
 -o-transition: all 1000ms ease-out;
 transition: all 1000ms ease-out;
 color: #7f8c8d;
-transform: rotate(-90deg);
 font-family: 'Michroma',sans-serif;
 font-size: .7em;
 
@@ -3327,7 +3334,7 @@ transition: all 1000ms ease-out;
 }
 
 .icons:hover{
-transform: rotateY(180deg);
+transform: rotateX(180deg);
 color:#3498db ;
 }
 
@@ -3540,7 +3547,7 @@ background-color: #000000;
 border:none;
 background-position: center;
 background-attachment: fixed;
-font-family: 'Quicksand', sans-serif;
+font-family: 'Rajdhani', sans-serif;
 color: #bdc3c7;
 -webkit-transition: all 2000ms ease-out;
 -moz-transition: all 2000ms ease-out;
@@ -3575,32 +3582,32 @@ outline:1px solid transparent;
 width: 7.5em;
 }
 .rotateR{
--moz-transform: rotateY(180deg);
--webkit-transform: rotateY(180deg);
--o-transform: rotateY(180deg);
--ms-transform: rotateY(180deg);
-transform: rotateY(180deg);
+-moz-transform: rotateX(180deg);
+-webkit-transform: rotateX(180deg);
+-o-transform: rotateX(180deg);
+-ms-transform: rotateX(180deg);
+transform: rotateX(180deg);
 }
 .rotateL{
--moz-transform: rotateY(-180deg);
--webkit-transform: rotateY(-180deg);
--o-transform: rotateY(-180deg);
--ms-transform: rotateY(-180deg);
-transform: rotateY(-180deg);
+-moz-transform: rotateX(-180deg);
+-webkit-transform: rotateX(-180deg);
+-o-transform: rotateX(-180deg);
+-ms-transform: rotateX(-180deg);
+transform: rotateX(-180deg);
 }
 p.ic-text{
-	color: #8e9fb5; font-size:1.2em; text-align:justify; padding-left:1.9em; padding-right:1.9em;
+	color: #8e9fb5; font-family: 'Jura',sans-serif; font-size:1.2em; text-align:justify; padding-left:1.9em; padding-right:1.9em;
 }
 h1.ic-header{
-	font-family: 'Poiret One', cursive; font-size:1.8em; font-weight:bold;padding-left:1.9em;padding-right:1.9em;
+	font-family: 'Jura', cursive; font-size:1.8em; font-weight:bold;padding-left:1.9em;padding-right:1.9em;
 }
 h1.headers {font-size: 4em;
-font-family: 'Quicksand', sans-serif;
+font-family: 'Rajdhani', sans-serif;
 padding: 0;
 
 }
 #italic{
-	font-family: 'Quicksand', sans-serif;
+	font-family: 'Rajdhani', sans-serif;
 	font-size: 4.2em;
 	color:#ff3366;
 }
@@ -3629,7 +3636,7 @@ top: 18%;
 }
 .quote{
 
-	font-family: 'Jura',sans-serif; font-size: 1.3em;
+	font-family: 'Jura',sans-serif; font-size: 1.3em;color: #34495e;
 
 }
 
@@ -3640,7 +3647,8 @@ top: 18%;
 /*end of dividers*/
 
 /*services*/
-
+.services-info{font-family: 'Jura', sans-serif;}
+.services-quote{font-family: 'Jura', sans-serif;}
 .services-header{
 	font-family: 'Rajdhani',sans-serif;	
 }
@@ -3660,7 +3668,7 @@ display: flex;align-items: center;justify-content: center;
 	margin-left: 1em;padding-right:0em;	
 }
 .services-content{
-	color:#7e8890;font-size: 1.2em;	
+	color:#7e8890;font-size: 1.2em;font-family: 'Rajdhani',sans-serif;		
 }
 .services-icon{
 	opacity: 0.7;
@@ -3868,10 +3876,11 @@ transform: translate(-50%,-50%);
 }
 html,body{
 height: 100%;
-background-color: white;
+background-color: #fff;
 max-width: 100%;
 font-size: 15px;
 }
+.lines{color: #7f8c8d;}
 header{
 background-image: url(../img/header-bg.jpg);
 background-repeat: no-repeat;
@@ -3895,7 +3904,7 @@ src:url(../fonts/space_age.ttf);
 p{
 /*color: #252b33;*/
 color: #979ea4;
-font-family: 'Raleway', sans-serif;
+font-family: 'Michroma: ;', sans-serif;
 font-size: 1em;
 }
 h5{
@@ -3907,7 +3916,7 @@ hr{
 border-color: #000000;
 }
 span{
-font-family: 'Raleway',sans-serif;
+font-family: 'Michroma: ;',sans-serif;
 font-size: 1em;
 color: #979ea4;
 }
@@ -4042,7 +4051,6 @@ transition: all 1000ms ease-out;
 -o-transition: all 1000ms ease-out;
 transition: all 1000ms ease-out;
 color: #7f8c8d;
-transform: rotate(-90deg);
 font-family: 'Michroma',sans-serif;
 font-size: .5em;
 
@@ -4064,7 +4072,7 @@ font-size: .5em;
 }
 
 .icons:hover{
-transform: rotateY(180deg);
+transform: rotateX(180deg);
 color:#3498db ;
 }
 
@@ -4265,7 +4273,7 @@ p.hover{
 
 .headerTwo{
 font-size: 1em;
-font-family: 'Quicksand', sans-serif;
+font-family: 'Rajdhani', sans-serif;
 
 }
 .jumbotron{
@@ -4276,7 +4284,7 @@ background-color: #000000;
 border:none;
 background-position: center;
 background-attachment: fixed;
-font-family: 'Quicksand', sans-serif;
+font-family: 'Rajdhani', sans-serif;
 color: #bdc3c7;
 -webkit-transition: all 2000ms ease-out;
 -moz-transition: all 2000ms ease-out;
@@ -4311,32 +4319,32 @@ outline:1px solid transparent;
 width: 5em;
 }
 .rotateR{
--moz-transform: rotateY(180deg);
--webkit-transform: rotateY(180deg);
--o-transform: rotateY(180deg);
--ms-transform: rotateY(180deg);
-transform: rotateY(180deg);
+-moz-transform: rotateX(180deg);
+-webkit-transform: rotateX(180deg);
+-o-transform: rotateX(180deg);
+-ms-transform: rotateX(180deg);
+transform: rotateX(180deg);
 }
 .rotateL{
--moz-transform: rotateY(-180deg);
--webkit-transform: rotateY(-180deg);
--o-transform: rotateY(-180deg);
--ms-transform: rotateY(-180deg);
-transform: rotateY(-180deg);
+-moz-transform: rotateX(-180deg);
+-webkit-transform: rotateX(-180deg);
+-o-transform: rotateX(-180deg);
+-ms-transform: rotateX(-180deg);
+transform: rotateX(-180deg);
 }
 p.ic-text{
-	color: #8e9fb5; font-size:1em; text-align:justify; padding-left:2em; padding-right:2em;
+	color: #8e9fb5; font-family: 'Jura',sans-serif; font-size:1em; text-align:justify; padding-left:2em; padding-right:2em;
 }
 h1.ic-header{
-	font-family: 'Poiret One', cursive; font-size:1.2em; font-weight:bold;padding-left:2em;padding-right:2em;
+	font-family: 'Jura', cursive; font-size:1.2em; font-weight:bold;padding-left:2em;padding-right:2em;
 }
 h1.headers {font-size: 3.2em;
-font-family: 'Quicksand', sans-serif;
+font-family: 'Rajdhani', sans-serif;
 padding: 0;
 
 }
 #italic{
-	font-family: 'Quicksand', sans-serif;
+	font-family: 'Rajdhani', sans-serif;
 	font-size: 3.3em;
 	color:#ff3366;
 }
@@ -4363,7 +4371,7 @@ right: 1%;
 }
 .quote{
 
-	font-family: 'Jura',sans-serif; font-size: 1.1em;
+	font-family: 'Jura',sans-serif; font-size: 1.1em;color: #34495e;
 
 }
 
@@ -4374,7 +4382,8 @@ right: 1%;
 /*end of dividers*/
 
 /*services*/
-
+.services-info{font-family: 'Jura', sans-serif;}
+.services-quote{font-family: 'Jura', sans-serif;}
 .services-header{
 	font-family: 'Rajdhani',sans-serif;	
 }
@@ -4394,7 +4403,7 @@ display: flex;align-items: center;justify-content: center;
 	margin-left: 1em;padding-right:0em;	
 }
 .services-content{
-	color:#7e8890;font-size: 1em;	
+	color:#7e8890;font-size: 1em;	font-family: 'Rajdhani',sans-serif;	
 }
 .services-icon{
 	opacity: 0.7;
@@ -4603,10 +4612,12 @@ transform: translate(-50%,-50%);
 }
 html,body{
 height: 100%;
-background-color: white;
+background-color: #fff;
 max-width: 100%;
 font-size: 15px;
+font-family: 'Jura',sans
 }
+.lines{color: #7f8c8d;}
 header{
 background-image: url(../img/header-bg.jpg);
 background-repeat: no-repeat;
@@ -4630,7 +4641,7 @@ src:url(../fonts/space_age.ttf);
 p{
 /*color: #252b33;*/
 color: #979ea4;
-font-family: 'Raleway', sans-serif;
+font-family: 'Michroma: ;', sans-serif;
 font-size: 1em;
 }
 h5{
@@ -4767,7 +4778,6 @@ font-size: .7em;
 -o-transition: all 1000ms ease-out;
 transition: all 1000ms ease-out;
 color: #7f8c8d;
-transform: rotate(-90deg);
 font-family: 'Michroma',sans-serif;
 font-size: .7em;
 
@@ -4799,7 +4809,7 @@ color:#3498db ;
 transition: all 1000ms ease-out;
 }
 .whole-pad{
-	padding-top:15vh;
+	padding-top:10vh;
 }
 
 
@@ -4973,7 +4983,9 @@ font-size: 1em;
 transition: all 1000ms ease-out; 
 }
 p.hover{
-	display: inline-block;color:white;font-size: 1.5em; padding-top: 1%;	
+	display: inline-block;color:white;font-size: 1em; padding-top: 1%;
+	font-family: 'Michroma', sans-serif;
+
 }
 /*end of us*/
 
@@ -4981,18 +4993,18 @@ p.hover{
 
 .headerTwo{
 font-size: 1em;
-font-family: 'Quicksand', sans-serif;
+font-family: 'Rajdhani', sans-serif;
 
 }
 .jumbotron{
-  height: 50vh; 
+  height: 53vh; 
 position: relative;
 background-image: url(../img/wp7.jpg);
 background-color: #000000;
 border:none;
 background-position: center;
 background-attachment: fixed;
-font-family: 'Quicksand', sans-serif;
+font-family: 'Rajdhani', sans-serif;
 color: #bdc3c7;
 -webkit-transition: all 2000ms ease-out;
 -moz-transition: all 2000ms ease-out;
@@ -5006,6 +5018,10 @@ transition: all 2000ms ease-out;
 transition-delay: 2s;
 transition: background-color 1s;
 margin-bottom: 0em;
+}
+#text-wrapper{
+	position: absolute;
+	top: 10%;
 }
 .jumbotron:hover{
 background-color: rgba(0,0,0,.5);
@@ -5027,32 +5043,32 @@ outline:1px solid transparent;
 width: 6em;
 }
 .rotateR{
--moz-transform: rotateY(180deg);
--webkit-transform: rotateY(180deg);
--o-transform: rotateY(180deg);
--ms-transform: rotateY(180deg);
-transform: rotateY(180deg);
+-moz-transform: rotateX(180deg);
+-webkit-transform: rotateX(180deg);
+-o-transform: rotateX(180deg);
+-ms-transform: rotateX(180deg);
+transform: rotateX(180deg);
 }
 .rotateL{
--moz-transform: rotateY(-180deg);
--webkit-transform: rotateY(-180deg);
--o-transform: rotateY(-180deg);
--ms-transform: rotateY(-180deg);
-transform: rotateY(-180deg);
+-moz-transform: rotateX(-180deg);
+-webkit-transform: rotateX(-180deg);
+-o-transform: rotateX(-180deg);
+-ms-transform: rotateX(-180deg);
+transform: rotateX(-180deg);
 }
 p.ic-text{
-	color: #8e9fb5; font-size:1em; text-align:justify; padding-left:1.9em; padding-right:1.9em;
+	color: #8e9fb5; font-family: 'Jura',sans-serif; font-size:1em; text-align:justify; padding-left:1.9em; padding-right:1.9em;
 }
 h1.ic-header{
-	font-family: 'Poiret One', cursive; font-size:1.5em; font-weight:bold;padding-left:1.9em;padding-right:1.9em;
+	font-family: 'Jura', cursive; font-size:1.5em; font-weight:bold;padding-left:1.9em;padding-right:1.9em;
 }
 h1.headers {font-size: 3.2em;
-font-family: 'Quicksand', sans-serif;
+font-family: 'Rajdhani', sans-serif;
 padding: 0;
 
 }
 #italic{
-	font-family: 'Quicksand', sans-serif;
+	font-family: 'Rajdhani', sans-serif;
 	font-size: 3em;
 	color:#ff3366;
 }
@@ -5082,7 +5098,7 @@ right: 1%;
 }
 .quote{
 
-	font-family: 'Jura',sans-serif; font-size: 1.1em;
+	font-family: 'Jura',sans-serif; font-size: 1.5em;color: #34495e;
 
 }
 
@@ -5093,7 +5109,8 @@ right: 1%;
 /*end of dividers*/
 
 /*services*/
-
+.services-info{font-family: 'Jura', sans-serif;}
+.services-quote{font-family: 'Jura', sans-serif;}
 .services-header{
 	font-family: 'Rajdhani',sans-serif;	
 	font-size: 3em;
@@ -5114,13 +5131,13 @@ display: flex;align-items: center;justify-content: center;
 	margin-left: 1em;padding-right:0em;	
 }
 .services-content{
-	color:#7e8890;font-size: 1em;	
+	color:#7e8890;font-size: 1em; 	font-family: 'Rajdhani',sans-serif;	
 }
 .services-icon{
 	opacity: 0.7;
 }
 .hr-services{
-	border-color:rgba(151,158,164,.5);	
+	border-color:rgba(151,158,164,.5);	  
 }
 
 #brush, #desktop, #web{
@@ -5140,7 +5157,7 @@ background: -moz-linear-gradient(top,  rgba(37,37,37,.5) 0%, rgba(37,37,37,.5) 1
 background: -webkit-linear-gradient(top,  rgba(37,37,37,.5) 0%,rgba(37,37,37,.5) 100%) , url(../img/whitebgtwo.jpg) center fixed  ; /* Chrome10-25,Safari5.1-6 */
 background: linear-gradient(to bottom,  rgba(37,37,37,.5) 0%,rgba(37,37,37,.5) 100%) , url(../img/whitebgtwo.jpg) center fixed  ; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#252525', endColorstr='#252525',GradientType=0 ); /* IE6-9 */
-background-color: rgba(0,0,0,.7);
+background-color: rgba(0,0,0,.5);
 background-size: cover;
 border:none;
 font-family: 'Rajdhani', sans-serif;
@@ -5191,6 +5208,16 @@ transition: all 1000ms ease-out;
 -ms-transition: all 1000ms ease-out;
 -o-transition: all 1000ms ease-out;
 transition: all 1000ms ease-out;
+-webkit-animation-duration: 2s;
+-webkit-animation-delay: 1s;
+-moz-animation-duration: 2s;
+-moz-animation-delay: 1s;
+-ms-animation-duration: 2s;
+-ms-animation-delay: 1s;
+-o-animation-duration: 2s;
+-o-animation-delay: 1s;
+animation-duration: 2s;
+animation-delay: 1s;
 }
 #title{
 -webkit-transition: all 1s ease-out;

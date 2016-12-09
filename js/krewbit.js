@@ -247,7 +247,7 @@ window.addEventListener("load",function() {
 
       $(window).load(function() { setTimeout(function () {
        $('#nav').addClass('show');
-      }, 2600)})
+      }, 3000)})
       
       $(window).load(function() { setTimeout(function () {
        $('#loader').fadeOut();
@@ -261,7 +261,7 @@ window.addEventListener("load",function() {
 
   
 
-      }, 3200)})
+      }, 2000)})
 
         $(window).load(function() { setTimeout(function () {
       
@@ -271,7 +271,7 @@ window.addEventListener("load",function() {
        $('#loader').fadeOut();
     
 
-      }, 2600)})
+      }, 2400)})
          $(window).load(function() { setTimeout(function () {
       
        $('.page-loader-mid-one').addClass('mid-one-loaded');
@@ -279,7 +279,7 @@ window.addEventListener("load",function() {
        
 
 
-      }, 2000)})
+      },1800)})
           $(window).load(function() { setTimeout(function () {
       
        $('.page-loader-mid-two').addClass('mid-two-loaded');
@@ -287,7 +287,7 @@ window.addEventListener("load",function() {
        
 
 
-      }, 1400)})
+      }, 1200)})
            $(window).load(function() { setTimeout(function () {
       
        $('.page-loader-bottom').addClass('bottom-loaded');
@@ -296,7 +296,7 @@ window.addEventListener("load",function() {
        
    
 
-      }, 800)})
+      }, 600)})
         
         
         
@@ -931,3 +931,5 @@ window.addEventListener("load",function() {
       };
       
       var particles = new Particles($('#js-particles-two'));
+
+         
